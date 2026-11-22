@@ -1,0 +1,10 @@
+{
+  "application_id": "temperature_fixture_v1",
+  "input_rows": 120,
+  "min_valid_samples": 12,
+  "moving_average_window": 5,
+  "valid_temperature_min": -20.0,
+  "valid_temperature_max": 80.0,
+  "alert_threshold": 30.0,
+  "control_threshold": 28.0
+}
