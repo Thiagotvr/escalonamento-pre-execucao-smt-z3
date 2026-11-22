@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "str-project"
+version = "0.1.0"
+description = "Análise Comparativa do Escalonamento Pré-Execução de Processos em Tempo Real utilizando SMT/Z3 e Xu & Parnas"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "z3-solver>=4.12.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

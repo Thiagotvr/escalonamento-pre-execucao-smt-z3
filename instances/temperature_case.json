@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "instance_id": "temperature_case_v1",
+  "objective": "feasibility",
+  "processes": [
+    {"id": "P1", "segments": ["A1", "A2", "A3"]},
+    {"id": "P2", "segments": ["A4", "A5", "A6", "A7"]},
+    {"id": "P3", "segments": ["S", "A8"]}
+  ],
+  "segments": [
+    {"id": "A1", "release": 0, "execution_units": 2, "deadline": 8},
+    {"id": "A2", "release": 0, "execution_units": 1, "deadline": 8},
+    {"id": "A3", "release": 0, "execution_units": 3, "deadline": 8},
+    {"id": "A4", "release": 0, "execution_units": 4, "deadline": 20},
+    {"id": "A5", "release": 0, "execution_units": 1, "deadline": 20},
+    {"id": "A6", "release": 0, "execution_units": 1, "deadline": 20},
+    {"id": "A7", "release": 0, "execution_units": 2, "deadline": 20},
+    {"id": "S",  "release": 8, "execution_units": 2, "deadline": 20},
+    {"id": "A8", "release": 8, "execution_units": 3, "deadline": 20}
+  ],
+  "precedence": [["A3", "A4"]],
+  "exclusion": [["A7", "S"], ["S", "A7"]]
+}

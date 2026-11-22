@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "instance_id": "xu_parnas_example_2",
+  "objective": "feasibility",
+  "processes": [
+    {"id": "PA", "segments": ["A"]},
+    {"id": "PB", "segments": ["B"]},
+    {"id": "PC", "segments": ["C"]}
+  ],
+  "segments": [
+    {"id": "A", "release": 0, "execution_units": 50, "deadline": 110},
+    {"id": "B", "release": 10, "execution_units": 20, "deadline": 101},
+    {"id": "C", "release": 60, "execution_units": 30, "deadline": 90}
+  ],
+  "precedence": [],
+  "exclusion": [
+    ["A", "B"],
+    ["B", "C"]
+  ]
+}
