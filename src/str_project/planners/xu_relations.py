@@ -58,21 +58,22 @@ def check_relations(
     """
     pc_closure = transitive_closure_pc(pc)
 
-    for i, j in pc_closure:
+    for i, j in sorted(pc_closure):
         if i == j:
             return RelationCheckResult(
                 consistent=False,
                 reason=f"cyclic_precedence_involving:{i}",
                 pc_closure=pc_closure,
             )
+    for i, j in sorted(pc_closure):
         if (j, i) in pc_closure:
             return RelationCheckResult(
                 consistent=False,
-                reason=f"pc_cycle:{i}<->{j}",
+                reason=f"cyclic_precedence:{i}<->{j}",
                 pc_closure=pc_closure,
             )
 
-    for i, j in pm:
+    for i, j in sorted(pm):
         if i == j:
             return RelationCheckResult(
                 consistent=False,
