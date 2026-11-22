@@ -1,0 +1,76 @@
+{
+  "rows": [
+    {
+      "fator": 1,
+      "segmentos": 9,
+      "total_units": 19,
+      "xu_status": "feasible",
+      "z3_status": "feasible",
+      "xu_median_ns": 772813,
+      "z3_build_median_ns": 3568401,
+      "z3_search_median_ns": 3592412,
+      "z3_median_ns": 15606456,
+      "ratio_z3_xu": 20.194349732729652
+    },
+    {
+      "fator": 2,
+      "segmentos": 9,
+      "total_units": 38,
+      "xu_status": "feasible",
+      "z3_status": "feasible",
+      "xu_median_ns": 521921,
+      "z3_build_median_ns": 6880617,
+      "z3_search_median_ns": 12794457,
+      "z3_median_ns": 27307506,
+      "ratio_z3_xu": 52.32114821974973
+    },
+    {
+      "fator": 3,
+      "segmentos": 9,
+      "total_units": 57,
+      "xu_status": "feasible",
+      "z3_status": "feasible",
+      "xu_median_ns": 774294,
+      "z3_build_median_ns": 9450990,
+      "z3_search_median_ns": 24984965,
+      "z3_median_ns": 41208854,
+      "ratio_z3_xu": 53.22119763294046
+    },
+    {
+      "fator": 4,
+      "segmentos": 9,
+      "total_units": 76,
+      "xu_status": "feasible",
+      "z3_status": "feasible",
+      "xu_median_ns": 1186071,
+      "z3_build_median_ns": 12899707,
+      "z3_search_median_ns": 43236055,
+      "z3_median_ns": 65733317,
+      "ratio_z3_xu": 55.42106416900843
+    },
+    {
+      "fator": 6,
+      "segmentos": 9,
+      "total_units": 114,
+      "xu_status": "feasible",
+      "z3_status": "feasible",
+      "xu_median_ns": 805001,
+      "z3_build_median_ns": 16289960,
+      "z3_search_median_ns": 113840564,
+      "z3_median_ns": 135131295,
+      "ratio_z3_xu": 167.86475420527427
+    },
+    {
+      "fator": 8,
+      "segmentos": 9,
+      "total_units": 152,
+      "xu_status": "feasible",
+      "z3_status": "feasible",
+      "xu_median_ns": 1129713,
+      "z3_build_median_ns": 21394262,
+      "z3_search_median_ns": 8184727,
+      "z3_median_ns": 36145428,
+      "ratio_z3_xu": 31.99523064707585
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+Caso,Seg.,Unid.,Oraculo,Xu_Parnas,SMT_Z3,Lmax_Xu,Lmax_Z3,Concordancia
+temperature_case_v1,9,19,--,feasible,feasible,-1,-1,Sim
+xu_parnas_example_1 (G1),4,80,--,feasible,feasible,0,0,Sim
+xu_parnas_example_2 (G2),3,100,--,feasible,feasible,0,0,Sim
+preempcao_sem_EX,2,3,feasible,feasible,feasible,0,0,Sim
+exclusao_dir_A_EX_B,2,3,infeasible,infeasible,infeasible,1,,Sim
+exclusao_dir_B_EX_A,2,3,feasible,feasible,feasible,0,0,Sim
+inviavel_ciclo_PC,2,4,infeasible,infeasible,infeasible,,,Sim
+inviavel_sobrecarga,2,7,infeasible,infeasible,infeasible,2,,Sim
+Lote aleatorio viabilidade (N=100),2-4,2-12,48V/52I,100/100,100/100,--,--,100.0%
+Lote aleatorio min Lmax (N=30),2-4,2-12,Exato,30/30,30/30,Exato,Exato,100.0%

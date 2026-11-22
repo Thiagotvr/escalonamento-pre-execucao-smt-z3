@@ -1,0 +1,52 @@
+{
+  "rows": [
+    {
+      "instance_id": "temperature_case_v1",
+      "units": 19,
+      "xu_feas_ms": 0.449635,
+      "xu_opt_ms": 0.598099,
+      "xu_opt_lmax": -1,
+      "z3_feas_ms": 12.576219,
+      "z3_opt_ms": 36.253508,
+      "z3_opt_lmax": -1,
+      "z3_opt_status": "feasible",
+      "xu_opt_status": "feasible"
+    },
+    {
+      "instance_id": "xu_parnas_example_1",
+      "units": 80,
+      "xu_feas_ms": 0.689547,
+      "xu_opt_ms": 0.70349,
+      "xu_opt_lmax": 0,
+      "z3_feas_ms": 76.975107,
+      "z3_opt_ms": 27.201941,
+      "z3_opt_lmax": 0,
+      "z3_opt_status": "feasible",
+      "xu_opt_status": "feasible"
+    },
+    {
+      "instance_id": "xu_parnas_example_2",
+      "units": 100,
+      "xu_feas_ms": 1.14147,
+      "xu_opt_ms": 1.015477,
+      "xu_opt_lmax": 0,
+      "z3_feas_ms": 147.140515,
+      "z3_opt_ms": 3341.220751,
+      "z3_opt_lmax": 0,
+      "z3_opt_status": "feasible",
+      "xu_opt_status": "feasible"
+    },
+    {
+      "instance_id": "inviavel_exclusao_apertada",
+      "units": 10,
+      "xu_feas_ms": 0.190546,
+      "xu_opt_ms": 0.178419,
+      "xu_opt_lmax": 3,
+      "z3_feas_ms": 7.46715,
+      "z3_opt_ms": 9.662326,
+      "z3_opt_lmax": 3,
+      "z3_opt_status": "infeasible",
+      "xu_opt_status": "infeasible"
+    }
+  ]
+}

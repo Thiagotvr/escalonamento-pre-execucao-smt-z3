@@ -1,0 +1,119 @@
+{
+  "reference_cases": [
+    {
+      "caso": "temperature_case_v1",
+      "segmentos": 9,
+      "unidades": 19,
+      "oraculo": "--",
+      "xu_parnas": "feasible",
+      "smt_z3": "feasible",
+      "xu_lmax": -1,
+      "z3_lmax": -1,
+      "validador_xu": true,
+      "validador_z3": true,
+      "concordancia": true
+    },
+    {
+      "caso": "xu_parnas_example_1 (G1)",
+      "segmentos": 4,
+      "unidades": 80,
+      "oraculo": "--",
+      "xu_parnas": "feasible",
+      "smt_z3": "feasible",
+      "xu_lmax": 0,
+      "z3_lmax": 0,
+      "validador_xu": true,
+      "validador_z3": true,
+      "concordancia": true
+    },
+    {
+      "caso": "xu_parnas_example_2 (G2)",
+      "segmentos": 3,
+      "unidades": 100,
+      "oraculo": "--",
+      "xu_parnas": "feasible",
+      "smt_z3": "feasible",
+      "xu_lmax": 0,
+      "z3_lmax": 0,
+      "validador_xu": true,
+      "validador_z3": true,
+      "concordancia": true
+    },
+    {
+      "caso": "preempcao_sem_EX",
+      "segmentos": 2,
+      "unidades": 3,
+      "oraculo": "feasible",
+      "xu_parnas": "feasible",
+      "smt_z3": "feasible",
+      "xu_lmax": 0,
+      "z3_lmax": 0,
+      "validador_xu": true,
+      "validador_z3": true,
+      "concordancia": true
+    },
+    {
+      "caso": "exclusao_dir_A_EX_B",
+      "segmentos": 2,
+      "unidades": 3,
+      "oraculo": "infeasible",
+      "xu_parnas": "infeasible",
+      "smt_z3": "infeasible",
+      "xu_lmax": 1,
+      "z3_lmax": null,
+      "validador_xu": null,
+      "validador_z3": null,
+      "concordancia": true
+    },
+    {
+      "caso": "exclusao_dir_B_EX_A",
+      "segmentos": 2,
+      "unidades": 3,
+      "oraculo": "feasible",
+      "xu_parnas": "feasible",
+      "smt_z3": "feasible",
+      "xu_lmax": 0,
+      "z3_lmax": 0,
+      "validador_xu": true,
+      "validador_z3": true,
+      "concordancia": true
+    },
+    {
+      "caso": "inviavel_ciclo_PC",
+      "segmentos": 2,
+      "unidades": 4,
+      "oraculo": "infeasible",
+      "xu_parnas": "infeasible",
+      "smt_z3": "infeasible",
+      "xu_lmax": null,
+      "z3_lmax": null,
+      "validador_xu": null,
+      "validador_z3": null,
+      "concordancia": true
+    },
+    {
+      "caso": "inviavel_sobrecarga",
+      "segmentos": 2,
+      "unidades": 7,
+      "oraculo": "infeasible",
+      "xu_parnas": "infeasible",
+      "smt_z3": "infeasible",
+      "xu_lmax": 2,
+      "z3_lmax": null,
+      "validador_xu": null,
+      "validador_z3": null,
+      "concordancia": true
+    }
+  ],
+  "random_feasibility_audit": {
+    "total": 100,
+    "feasible_count": 48,
+    "infeasible_count": 52,
+    "full_agreement_count": 100,
+    "invalid_schedules": 0
+  },
+  "random_min_lmax_audit": {
+    "total": 30,
+    "exact_lmax_agreement_count": 30
+  }
+}

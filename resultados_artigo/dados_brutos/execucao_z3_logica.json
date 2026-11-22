@@ -1,0 +1,597 @@
+{
+  "status": "ok",
+  "mode": "logical",
+  "instance_id": "temperature_case_v1",
+  "instance_hash": "2d4181ac00a332d9445b41245c8b697e5f8dad42d303eafcad65cea051d722dd",
+  "quantum_ns": null,
+  "epoch_ns": null,
+  "total_wall_ns": 527912,
+  "total_cpu_ns": 527410,
+  "units_executed": 19,
+  "total_expected_units": 19,
+  "max_dispatch_lateness_ns": 0,
+  "max_work_elapsed_ns": 91811,
+  "max_slot_overrun_ns": 0,
+  "failed_unit": null,
+  "error_message": null,
+  "validation_errors": [],
+  "traces": [
+    {
+      "segment_id": "A1",
+      "unit_index": 1,
+      "start_tick": 0,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914553760359,
+      "actual_end_ns": 6914553822745,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 62386,
+      "cpu_elapsed_ns": 62724,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "rows_read": 60
+      }
+    },
+    {
+      "segment_id": "A1",
+      "unit_index": 2,
+      "start_tick": 1,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914553829056,
+      "actual_end_ns": 6914553863893,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 34837,
+      "cpu_elapsed_ns": 35031,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "rows_read": 60,
+        "total_rows": 120
+      }
+    },
+    {
+      "segment_id": "A2",
+      "unit_index": 1,
+      "start_tick": 2,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914553868647,
+      "actual_end_ns": 6914553925694,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 57047,
+      "cpu_elapsed_ns": 57110,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "valid_count": 120,
+        "rejected_count": 0
+      }
+    },
+    {
+      "segment_id": "A3",
+      "unit_index": 1,
+      "start_tick": 3,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914553929946,
+      "actual_end_ns": 6914553957157,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 27211,
+      "cpu_elapsed_ns": 27283,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "partition": [
+          0,
+          40
+        ],
+        "processed": 40
+      }
+    },
+    {
+      "segment_id": "A3",
+      "unit_index": 2,
+      "start_tick": 4,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914553961230,
+      "actual_end_ns": 6914553984653,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 23423,
+      "cpu_elapsed_ns": 23454,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "partition": [
+          40,
+          80
+        ],
+        "processed": 40
+      }
+    },
+    {
+      "segment_id": "A3",
+      "unit_index": 3,
+      "start_tick": 5,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914553988533,
+      "actual_end_ns": 6914554017900,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 29367,
+      "cpu_elapsed_ns": 29426,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "partition": [
+          80,
+          120
+        ],
+        "processed": 40
+      }
+    },
+    {
+      "segment_id": "A4",
+      "unit_index": 1,
+      "start_tick": 6,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914554022087,
+      "actual_end_ns": 6914554039200,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 17113,
+      "cpu_elapsed_ns": 17192,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "partition": [
+          0,
+          30
+        ],
+        "count": 30
+      }
+    },
+    {
+      "segment_id": "A4",
+      "unit_index": 2,
+      "start_tick": 7,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914554043266,
+      "actual_end_ns": 6914554055715,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 12449,
+      "cpu_elapsed_ns": 12497,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "partition": [
+          30,
+          60
+        ],
+        "count": 30
+      }
+    },
+    {
+      "segment_id": "A4",
+      "unit_index": 3,
+      "start_tick": 8,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914554059552,
+      "actual_end_ns": 6914554071112,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 11560,
+      "cpu_elapsed_ns": 11664,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "partition": [
+          60,
+          90
+        ],
+        "count": 30
+      }
+    },
+    {
+      "segment_id": "A4",
+      "unit_index": 4,
+      "start_tick": 9,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914554075038,
+      "actual_end_ns": 6914554097876,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 22838,
+      "cpu_elapsed_ns": 22907,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "partition": [
+          90,
+          120
+        ],
+        "count": 30,
+        "indicators": {
+          "count": 120.0,
+          "min": 24.0,
+          "max": 35.7,
+          "mean": 29.754166666666666,
+          "variance": 11.951024305555556
+        }
+      }
+    },
+    {
+      "segment_id": "A5",
+      "unit_index": 1,
+      "start_tick": 10,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914554101995,
+      "actual_end_ns": 6914554105864,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 3869,
+      "cpu_elapsed_ns": 3864,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "alert_active": true,
+        "alert": "alerta_ativo"
+      }
+    },
+    {
+      "segment_id": "A6",
+      "unit_index": 1,
+      "start_tick": 11,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914554109409,
+      "actual_end_ns": 6914554112796,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 3387,
+      "cpu_elapsed_ns": 3378,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "ventilation_on": true,
+        "command": "ligado"
+      }
+    },
+    {
+      "segment_id": "A7",
+      "unit_index": 1,
+      "start_tick": 12,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914554116334,
+      "actual_end_ns": 6914554125219,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 8885,
+      "cpu_elapsed_ns": 8957,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "phase": "indicators_and_alert_written",
+        "target_version": 1
+      }
+    },
+    {
+      "segment_id": "A7",
+      "unit_index": 2,
+      "start_tick": 13,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914554128938,
+      "actual_end_ns": 6914554132735,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 3797,
+      "cpu_elapsed_ns": 3796,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 1,
+      "details": {
+        "phase": "published",
+        "published_version": 1
+      }
+    },
+    {
+      "segment_id": "S",
+      "unit_index": 1,
+      "start_tick": 14,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914554136225,
+      "actual_end_ns": 6914554144283,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 8058,
+      "cpu_elapsed_ns": 8093,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 1,
+      "details": {
+        "phase": "first_half_copied",
+        "version_start": 1
+      }
+    },
+    {
+      "segment_id": "S",
+      "unit_index": 2,
+      "start_tick": 15,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914554147982,
+      "actual_end_ns": 6914554151922,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 3940,
+      "cpu_elapsed_ns": 3969,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 1,
+      "details": {
+        "phase": "copy_verified",
+        "copied_version": 1
+      }
+    },
+    {
+      "segment_id": "A8",
+      "unit_index": 1,
+      "start_tick": 16,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914554155433,
+      "actual_end_ns": 6914554247244,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 91811,
+      "cpu_elapsed_ns": 92219,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 1,
+      "details": {
+        "phase": "formatted_and_opened",
+        "bytes": 407
+      }
+    },
+    {
+      "segment_id": "A8",
+      "unit_index": 2,
+      "start_tick": 17,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914554253133,
+      "actual_end_ns": 6914554256821,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 3688,
+      "cpu_elapsed_ns": 3644,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 1,
+      "details": {
+        "phase": "written",
+        "chars_written": 407
+      }
+    },
+    {
+      "segment_id": "A8",
+      "unit_index": 3,
+      "start_tick": 18,
+      "planned_start_ns": null,
+      "planned_end_ns": null,
+      "actual_start_ns": 6914554260651,
+      "actual_end_ns": 6914554279714,
+      "dispatch_lateness_ns": 0,
+      "work_elapsed_ns": 19063,
+      "cpu_elapsed_ns": 19190,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 1,
+      "details": {
+        "phase": "flushed_and_closed",
+        "output_path": "/tmp/str_art_exec_4uk1ceky/z3_log_p3.json"
+      }
+    }
+  ],
+  "segment_timings": [
+    {
+      "segment_id": "A1",
+      "logical_release_tick": 0,
+      "logical_start_tick": 0,
+      "logical_end_tick": 2,
+      "logical_deadline_tick": 8,
+      "planned_release_ns": null,
+      "planned_deadline_ns": null,
+      "logical_completion_ns": null,
+      "actual_start_ns": 6914553760359,
+      "actual_end_ns": 6914553863893,
+      "physical_deadline_met": null
+    },
+    {
+      "segment_id": "A2",
+      "logical_release_tick": 0,
+      "logical_start_tick": 2,
+      "logical_end_tick": 3,
+      "logical_deadline_tick": 8,
+      "planned_release_ns": null,
+      "planned_deadline_ns": null,
+      "logical_completion_ns": null,
+      "actual_start_ns": 6914553868647,
+      "actual_end_ns": 6914553925694,
+      "physical_deadline_met": null
+    },
+    {
+      "segment_id": "A3",
+      "logical_release_tick": 0,
+      "logical_start_tick": 3,
+      "logical_end_tick": 6,
+      "logical_deadline_tick": 8,
+      "planned_release_ns": null,
+      "planned_deadline_ns": null,
+      "logical_completion_ns": null,
+      "actual_start_ns": 6914553929946,
+      "actual_end_ns": 6914554017900,
+      "physical_deadline_met": null
+    },
+    {
+      "segment_id": "A4",
+      "logical_release_tick": 0,
+      "logical_start_tick": 6,
+      "logical_end_tick": 10,
+      "logical_deadline_tick": 20,
+      "planned_release_ns": null,
+      "planned_deadline_ns": null,
+      "logical_completion_ns": null,
+      "actual_start_ns": 6914554022087,
+      "actual_end_ns": 6914554097876,
+      "physical_deadline_met": null
+    },
+    {
+      "segment_id": "A5",
+      "logical_release_tick": 0,
+      "logical_start_tick": 10,
+      "logical_end_tick": 11,
+      "logical_deadline_tick": 20,
+      "planned_release_ns": null,
+      "planned_deadline_ns": null,
+      "logical_completion_ns": null,
+      "actual_start_ns": 6914554101995,
+      "actual_end_ns": 6914554105864,
+      "physical_deadline_met": null
+    },
+    {
+      "segment_id": "A6",
+      "logical_release_tick": 0,
+      "logical_start_tick": 11,
+      "logical_end_tick": 12,
+      "logical_deadline_tick": 20,
+      "planned_release_ns": null,
+      "planned_deadline_ns": null,
+      "logical_completion_ns": null,
+      "actual_start_ns": 6914554109409,
+      "actual_end_ns": 6914554112796,
+      "physical_deadline_met": null
+    },
+    {
+      "segment_id": "A7",
+      "logical_release_tick": 0,
+      "logical_start_tick": 12,
+      "logical_end_tick": 14,
+      "logical_deadline_tick": 20,
+      "planned_release_ns": null,
+      "planned_deadline_ns": null,
+      "logical_completion_ns": null,
+      "actual_start_ns": 6914554116334,
+      "actual_end_ns": 6914554132735,
+      "physical_deadline_met": null
+    },
+    {
+      "segment_id": "S",
+      "logical_release_tick": 8,
+      "logical_start_tick": 14,
+      "logical_end_tick": 16,
+      "logical_deadline_tick": 20,
+      "planned_release_ns": null,
+      "planned_deadline_ns": null,
+      "logical_completion_ns": null,
+      "actual_start_ns": 6914554136225,
+      "actual_end_ns": 6914554151922,
+      "physical_deadline_met": null
+    },
+    {
+      "segment_id": "A8",
+      "logical_release_tick": 8,
+      "logical_start_tick": 16,
+      "logical_end_tick": 19,
+      "logical_deadline_tick": 20,
+      "planned_release_ns": null,
+      "planned_deadline_ns": null,
+      "logical_completion_ns": null,
+      "actual_start_ns": 6914554155433,
+      "actual_end_ns": 6914554279714,
+      "physical_deadline_met": null
+    }
+  ],
+  "final_shared_state": {
+    "version": 1,
+    "block_id": "block_1",
+    "instante": 119,
+    "indicators": {
+      "count": 120.0,
+      "min": 24.0,
+      "max": 35.7,
+      "mean": 29.754166666666666,
+      "variance": 11.951024305555556
+    },
+    "alert": "alerta_ativo",
+    "alert_active": true,
+    "command": "ligado",
+    "ventilation_on": true
+  },
+  "recorded_copy": {
+    "indicators": {
+      "count": 120.0,
+      "min": 24.0,
+      "max": 35.7,
+      "mean": 29.754166666666666,
+      "variance": 11.951024305555556
+    },
+    "alert": "alerta_ativo",
+    "alert_active": true,
+    "version": 1,
+    "block_id": "block_1",
+    "instante": 119,
+    "command": "ligado",
+    "ventilation_on": true
+  },
+  "output_path": "/tmp/str_art_exec_4uk1ceky/z3_log_p3.json",
+  "input_path": "/home/thiago/Documentos/mestrado/Sistemas_em_tempo_real/escalonamento-pre-execucao-smt-z3/data/temperatures.csv",
+  "input_hash": "9641141406eb3b8e8386e7114807064aa67f2770a148a90c05688fed3b0fb588",
+  "application_config": {
+    "application_id": "temperature_fixture_v1",
+    "input_rows": 120,
+    "min_valid_samples": 12,
+    "moving_average_window": 5,
+    "valid_temperature_min": -20.0,
+    "valid_temperature_max": 80.0,
+    "alert_threshold": 30.0,
+    "control_threshold": 28.0
+  },
+  "versions": {
+    "str_project": "0.1.0",
+    "python": "3.10.19",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+    "z3": "5.4.1"
+  }
+}

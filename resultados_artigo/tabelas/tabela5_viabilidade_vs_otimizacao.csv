@@ -1,0 +1,5 @@
+Instancia,Unid.,Xu_viab_ms,Xu_minLmax_ms,Z3_viab_ms,Z3_minLmax_ms,Lmax_otimo_Xu,Lmax_otimo_Z3
+temperature_case_v1,19,0.450,0.598,12.576,36.254,-1,-1
+xu_parnas_example_1,80,0.690,0.703,76.975,27.202,0,0
+xu_parnas_example_2,100,1.141,1.015,147.141,3341.221,0,0
+inviavel_exclusao_apertada,10,0.191,0.178,7.467,9.662,3,3

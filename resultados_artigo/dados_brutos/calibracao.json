@@ -1,0 +1,198 @@
+{
+  "quantum_ns": 3400000,
+  "safety_factor": 4.0,
+  "min_margin_ns": 1500000,
+  "repetitions": 30,
+  "warmup_runs": 5,
+  "instance_id": "temperature_case_v1",
+  "instance_hash": "2d4181ac00a332d9445b41245c8b697e5f8dad42d303eafcad65cea051d722dd",
+  "input_path": "/home/thiago/Documentos/mestrado/Sistemas_em_tempo_real/escalonamento-pre-execucao-smt-z3/data/temperatures.csv",
+  "input_hash": "9641141406eb3b8e8386e7114807064aa67f2770a148a90c05688fed3b0fb588",
+  "application_config": {
+    "application_id": "temperature_fixture_v1",
+    "input_rows": 120,
+    "min_valid_samples": 12,
+    "moving_average_window": 5,
+    "valid_temperature_min": -20.0,
+    "valid_temperature_max": 80.0,
+    "alert_threshold": 30.0,
+    "control_threshold": 28.0
+  },
+  "global_work_stats": {
+    "count": 570,
+    "min_ns": 3283,
+    "median_ns": 19402,
+    "p95_ns": 81936,
+    "p99_ns": 206723,
+    "max_ns": 472490
+  },
+  "dispatch_probe_stats": {
+    "count": 30,
+    "min_ns": 168,
+    "median_ns": 846,
+    "p95_ns": 3841,
+    "p99_ns": 999287,
+    "max_ns": 1405678
+  },
+  "per_unit_stats": {
+    "A1:1": {
+      "count": 30,
+      "min_ns": 61466,
+      "median_ns": 63103,
+      "p95_ns": 146954,
+      "p99_ns": 196733,
+      "max_ns": 205807
+    },
+    "A1:2": {
+      "count": 30,
+      "min_ns": 34775,
+      "median_ns": 35426,
+      "p95_ns": 74123,
+      "p99_ns": 81576,
+      "max_ns": 81889
+    },
+    "A2:1": {
+      "count": 30,
+      "min_ns": 56548,
+      "median_ns": 57700,
+      "p95_ns": 153878,
+      "p99_ns": 236860,
+      "max_ns": 266707
+    },
+    "A3:1": {
+      "count": 30,
+      "min_ns": 25888,
+      "median_ns": 26494,
+      "p95_ns": 61690,
+      "p99_ns": 146770,
+      "max_ns": 181157
+    },
+    "A3:2": {
+      "count": 30,
+      "min_ns": 22183,
+      "median_ns": 22910,
+      "p95_ns": 51451,
+      "p99_ns": 55002,
+      "max_ns": 55741
+    },
+    "A3:3": {
+      "count": 30,
+      "min_ns": 22265,
+      "median_ns": 23042,
+      "p95_ns": 51766,
+      "p99_ns": 56475,
+      "max_ns": 57092
+    },
+    "A4:1": {
+      "count": 30,
+      "min_ns": 16665,
+      "median_ns": 17253,
+      "p95_ns": 47418,
+      "p99_ns": 59804,
+      "max_ns": 63651
+    },
+    "A4:2": {
+      "count": 30,
+      "min_ns": 12095,
+      "median_ns": 12480,
+      "p95_ns": 26727,
+      "p99_ns": 32738,
+      "max_ns": 34684
+    },
+    "A4:3": {
+      "count": 30,
+      "min_ns": 12194,
+      "median_ns": 12562,
+      "p95_ns": 27018,
+      "p99_ns": 32278,
+      "max_ns": 33031
+    },
+    "A4:4": {
+      "count": 30,
+      "min_ns": 22508,
+      "median_ns": 22944,
+      "p95_ns": 55780,
+      "p99_ns": 82796,
+      "max_ns": 91111
+    },
+    "A5:1": {
+      "count": 30,
+      "min_ns": 3700,
+      "median_ns": 3894,
+      "p95_ns": 10276,
+      "p99_ns": 22730,
+      "max_ns": 27070
+    },
+    "A6:1": {
+      "count": 30,
+      "min_ns": 3283,
+      "median_ns": 3444,
+      "p95_ns": 10547,
+      "p99_ns": 17653,
+      "max_ns": 20330
+    },
+    "A7:1": {
+      "count": 30,
+      "min_ns": 8377,
+      "median_ns": 8828,
+      "p95_ns": 19138,
+      "p99_ns": 30000,
+      "max_ns": 34134
+    },
+    "A7:2": {
+      "count": 30,
+      "min_ns": 3493,
+      "median_ns": 3668,
+      "p95_ns": 9691,
+      "p99_ns": 12210,
+      "max_ns": 12525
+    },
+    "A8:1": {
+      "count": 30,
+      "min_ns": 76077,
+      "median_ns": 80476,
+      "p95_ns": 357255,
+      "p99_ns": 449892,
+      "max_ns": 472490
+    },
+    "A8:2": {
+      "count": 30,
+      "min_ns": 3304,
+      "median_ns": 3480,
+      "p95_ns": 8442,
+      "p99_ns": 10421,
+      "max_ns": 10967
+    },
+    "A8:3": {
+      "count": 30,
+      "min_ns": 19046,
+      "median_ns": 19920,
+      "p95_ns": 101200,
+      "p99_ns": 132734,
+      "max_ns": 143836
+    },
+    "S:1": {
+      "count": 30,
+      "min_ns": 4902,
+      "median_ns": 5190,
+      "p95_ns": 21027,
+      "p99_ns": 41761,
+      "max_ns": 49118
+    },
+    "S:2": {
+      "count": 30,
+      "min_ns": 3958,
+      "median_ns": 4203,
+      "p95_ns": 7931,
+      "p99_ns": 10700,
+      "max_ns": 11536
+    }
+  },
+  "versions": {
+    "str_project": "0.1.0",
+    "python": "3.10.19",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+    "z3": "5.4.1"
+  },
+  "notes": "Experimental calibration on a general-purpose OS/Python runtime. Observed maximums are empirical measurements, not formal WCET proofs."
+}

@@ -1,0 +1,597 @@
+{
+  "status": "ok",
+  "mode": "timed",
+  "instance_id": "temperature_case_v1",
+  "instance_hash": "2d4181ac00a332d9445b41245c8b697e5f8dad42d303eafcad65cea051d722dd",
+  "quantum_ns": 3400000,
+  "epoch_ns": 6914620253422,
+  "total_wall_ns": 63693131,
+  "total_cpu_ns": 20239896,
+  "units_executed": 19,
+  "total_expected_units": 19,
+  "max_dispatch_lateness_ns": 18430,
+  "max_work_elapsed_ns": 428527,
+  "max_slot_overrun_ns": 0,
+  "failed_unit": null,
+  "error_message": null,
+  "validation_errors": [],
+  "traces": [
+    {
+      "segment_id": "A1",
+      "unit_index": 1,
+      "start_tick": 0,
+      "planned_start_ns": 6914620253422,
+      "planned_end_ns": 6914623653422,
+      "actual_start_ns": 6914620253859,
+      "actual_end_ns": 6914620344580,
+      "dispatch_lateness_ns": 437,
+      "work_elapsed_ns": 90721,
+      "cpu_elapsed_ns": 90756,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "rows_read": 60
+      }
+    },
+    {
+      "segment_id": "A1",
+      "unit_index": 2,
+      "start_tick": 1,
+      "planned_start_ns": 6914623653422,
+      "planned_end_ns": 6914627053422,
+      "actual_start_ns": 6914623654161,
+      "actual_end_ns": 6914623709768,
+      "dispatch_lateness_ns": 739,
+      "work_elapsed_ns": 55607,
+      "cpu_elapsed_ns": 55214,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "rows_read": 60,
+        "total_rows": 120
+      }
+    },
+    {
+      "segment_id": "A2",
+      "unit_index": 1,
+      "start_tick": 2,
+      "planned_start_ns": 6914627053422,
+      "planned_end_ns": 6914630453422,
+      "actual_start_ns": 6914627054135,
+      "actual_end_ns": 6914627169559,
+      "dispatch_lateness_ns": 713,
+      "work_elapsed_ns": 115424,
+      "cpu_elapsed_ns": 115511,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "valid_count": 120,
+        "rejected_count": 0
+      }
+    },
+    {
+      "segment_id": "A3",
+      "unit_index": 1,
+      "start_tick": 3,
+      "planned_start_ns": 6914630453422,
+      "planned_end_ns": 6914633853422,
+      "actual_start_ns": 6914630455974,
+      "actual_end_ns": 6914630535557,
+      "dispatch_lateness_ns": 2552,
+      "work_elapsed_ns": 79583,
+      "cpu_elapsed_ns": 77336,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "partition": [
+          0,
+          40
+        ],
+        "processed": 40
+      }
+    },
+    {
+      "segment_id": "A3",
+      "unit_index": 2,
+      "start_tick": 4,
+      "planned_start_ns": 6914633853422,
+      "planned_end_ns": 6914637253422,
+      "actual_start_ns": 6914633856214,
+      "actual_end_ns": 6914633944134,
+      "dispatch_lateness_ns": 2792,
+      "work_elapsed_ns": 87920,
+      "cpu_elapsed_ns": 84676,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "partition": [
+          40,
+          80
+        ],
+        "processed": 40
+      }
+    },
+    {
+      "segment_id": "A3",
+      "unit_index": 3,
+      "start_tick": 5,
+      "planned_start_ns": 6914637253422,
+      "planned_end_ns": 6914640653422,
+      "actual_start_ns": 6914637254130,
+      "actual_end_ns": 6914637304654,
+      "dispatch_lateness_ns": 708,
+      "work_elapsed_ns": 50524,
+      "cpu_elapsed_ns": 50093,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "partition": [
+          80,
+          120
+        ],
+        "processed": 40
+      }
+    },
+    {
+      "segment_id": "A4",
+      "unit_index": 1,
+      "start_tick": 6,
+      "planned_start_ns": 6914640653422,
+      "planned_end_ns": 6914644053422,
+      "actual_start_ns": 6914640654000,
+      "actual_end_ns": 6914640691797,
+      "dispatch_lateness_ns": 578,
+      "work_elapsed_ns": 37797,
+      "cpu_elapsed_ns": 37452,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "partition": [
+          0,
+          30
+        ],
+        "count": 30
+      }
+    },
+    {
+      "segment_id": "A4",
+      "unit_index": 2,
+      "start_tick": 7,
+      "planned_start_ns": 6914644053422,
+      "planned_end_ns": 6914647453422,
+      "actual_start_ns": 6914644053990,
+      "actual_end_ns": 6914644078448,
+      "dispatch_lateness_ns": 568,
+      "work_elapsed_ns": 24458,
+      "cpu_elapsed_ns": 24100,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "partition": [
+          30,
+          60
+        ],
+        "count": 30
+      }
+    },
+    {
+      "segment_id": "A4",
+      "unit_index": 3,
+      "start_tick": 8,
+      "planned_start_ns": 6914647453422,
+      "planned_end_ns": 6914650853422,
+      "actual_start_ns": 6914647459076,
+      "actual_end_ns": 6914647606640,
+      "dispatch_lateness_ns": 5654,
+      "work_elapsed_ns": 147564,
+      "cpu_elapsed_ns": 144168,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "partition": [
+          60,
+          90
+        ],
+        "count": 30
+      }
+    },
+    {
+      "segment_id": "A4",
+      "unit_index": 4,
+      "start_tick": 9,
+      "planned_start_ns": 6914650853422,
+      "planned_end_ns": 6914654253422,
+      "actual_start_ns": 6914650858832,
+      "actual_end_ns": 6914651044735,
+      "dispatch_lateness_ns": 5410,
+      "work_elapsed_ns": 185903,
+      "cpu_elapsed_ns": 179738,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "partition": [
+          90,
+          120
+        ],
+        "count": 30,
+        "indicators": {
+          "count": 120.0,
+          "min": 24.0,
+          "max": 35.7,
+          "mean": 29.754166666666666,
+          "variance": 11.951024305555556
+        }
+      }
+    },
+    {
+      "segment_id": "A5",
+      "unit_index": 1,
+      "start_tick": 10,
+      "planned_start_ns": 6914654253422,
+      "planned_end_ns": 6914657653422,
+      "actual_start_ns": 6914654254021,
+      "actual_end_ns": 6914654269961,
+      "dispatch_lateness_ns": 599,
+      "work_elapsed_ns": 15940,
+      "cpu_elapsed_ns": 15329,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "alert_active": true,
+        "alert": "alerta_ativo"
+      }
+    },
+    {
+      "segment_id": "A6",
+      "unit_index": 1,
+      "start_tick": 11,
+      "planned_start_ns": 6914657653422,
+      "planned_end_ns": 6914661053422,
+      "actual_start_ns": 6914657654276,
+      "actual_end_ns": 6914657669274,
+      "dispatch_lateness_ns": 854,
+      "work_elapsed_ns": 14998,
+      "cpu_elapsed_ns": 14558,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "ventilation_on": true,
+        "command": "ligado"
+      }
+    },
+    {
+      "segment_id": "A7",
+      "unit_index": 1,
+      "start_tick": 12,
+      "planned_start_ns": 6914661053422,
+      "planned_end_ns": 6914664453422,
+      "actual_start_ns": 6914661053949,
+      "actual_end_ns": 6914661077224,
+      "dispatch_lateness_ns": 527,
+      "work_elapsed_ns": 23275,
+      "cpu_elapsed_ns": 22904,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 0,
+      "details": {
+        "phase": "indicators_and_alert_written",
+        "target_version": 1
+      }
+    },
+    {
+      "segment_id": "A7",
+      "unit_index": 2,
+      "start_tick": 13,
+      "planned_start_ns": 6914664453422,
+      "planned_end_ns": 6914667853422,
+      "actual_start_ns": 6914664458111,
+      "actual_end_ns": 6914664542465,
+      "dispatch_lateness_ns": 4689,
+      "work_elapsed_ns": 84354,
+      "cpu_elapsed_ns": 80593,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 1,
+      "details": {
+        "phase": "published",
+        "published_version": 1
+      }
+    },
+    {
+      "segment_id": "S",
+      "unit_index": 1,
+      "start_tick": 14,
+      "planned_start_ns": 6914667853422,
+      "planned_end_ns": 6914671253422,
+      "actual_start_ns": 6914667871852,
+      "actual_end_ns": 6914668086278,
+      "dispatch_lateness_ns": 18430,
+      "work_elapsed_ns": 214426,
+      "cpu_elapsed_ns": 197977,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 1,
+      "details": {
+        "phase": "first_half_copied",
+        "version_start": 1
+      }
+    },
+    {
+      "segment_id": "S",
+      "unit_index": 2,
+      "start_tick": 15,
+      "planned_start_ns": 6914671253422,
+      "planned_end_ns": 6914674653422,
+      "actual_start_ns": 6914671254169,
+      "actual_end_ns": 6914671274574,
+      "dispatch_lateness_ns": 747,
+      "work_elapsed_ns": 20405,
+      "cpu_elapsed_ns": 19594,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 1,
+      "details": {
+        "phase": "copy_verified",
+        "copied_version": 1
+      }
+    },
+    {
+      "segment_id": "A8",
+      "unit_index": 1,
+      "start_tick": 16,
+      "planned_start_ns": 6914674653422,
+      "planned_end_ns": 6914678053422,
+      "actual_start_ns": 6914674654101,
+      "actual_end_ns": 6914674842589,
+      "dispatch_lateness_ns": 679,
+      "work_elapsed_ns": 188488,
+      "cpu_elapsed_ns": 188512,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 1,
+      "details": {
+        "phase": "formatted_and_opened",
+        "bytes": 407
+      }
+    },
+    {
+      "segment_id": "A8",
+      "unit_index": 2,
+      "start_tick": 17,
+      "planned_start_ns": 6914678053422,
+      "planned_end_ns": 6914681453422,
+      "actual_start_ns": 6914678059673,
+      "actual_end_ns": 6914678135758,
+      "dispatch_lateness_ns": 6251,
+      "work_elapsed_ns": 76085,
+      "cpu_elapsed_ns": 72382,
+      "slot_overrun_ns": 0,
+      "done": false,
+      "exception": null,
+      "state_version": 1,
+      "details": {
+        "phase": "written",
+        "chars_written": 407
+      }
+    },
+    {
+      "segment_id": "A8",
+      "unit_index": 3,
+      "start_tick": 18,
+      "planned_start_ns": 6914681453422,
+      "planned_end_ns": 6914684853422,
+      "actual_start_ns": 6914681467420,
+      "actual_end_ns": 6914681895947,
+      "dispatch_lateness_ns": 13998,
+      "work_elapsed_ns": 428527,
+      "cpu_elapsed_ns": 418214,
+      "slot_overrun_ns": 0,
+      "done": true,
+      "exception": null,
+      "state_version": 1,
+      "details": {
+        "phase": "flushed_and_closed",
+        "output_path": "/tmp/str_art_exec_4uk1ceky/z3_tim_p3.json"
+      }
+    }
+  ],
+  "segment_timings": [
+    {
+      "segment_id": "A1",
+      "logical_release_tick": 0,
+      "logical_start_tick": 0,
+      "logical_end_tick": 2,
+      "logical_deadline_tick": 8,
+      "planned_release_ns": 6914620253422,
+      "planned_deadline_ns": 6914647453422,
+      "logical_completion_ns": 6914627053422,
+      "actual_start_ns": 6914620253859,
+      "actual_end_ns": 6914623709768,
+      "physical_deadline_met": true
+    },
+    {
+      "segment_id": "A2",
+      "logical_release_tick": 0,
+      "logical_start_tick": 2,
+      "logical_end_tick": 3,
+      "logical_deadline_tick": 8,
+      "planned_release_ns": 6914620253422,
+      "planned_deadline_ns": 6914647453422,
+      "logical_completion_ns": 6914630453422,
+      "actual_start_ns": 6914627054135,
+      "actual_end_ns": 6914627169559,
+      "physical_deadline_met": true
+    },
+    {
+      "segment_id": "A3",
+      "logical_release_tick": 0,
+      "logical_start_tick": 3,
+      "logical_end_tick": 6,
+      "logical_deadline_tick": 8,
+      "planned_release_ns": 6914620253422,
+      "planned_deadline_ns": 6914647453422,
+      "logical_completion_ns": 6914640653422,
+      "actual_start_ns": 6914630455974,
+      "actual_end_ns": 6914637304654,
+      "physical_deadline_met": true
+    },
+    {
+      "segment_id": "A4",
+      "logical_release_tick": 0,
+      "logical_start_tick": 6,
+      "logical_end_tick": 10,
+      "logical_deadline_tick": 20,
+      "planned_release_ns": 6914620253422,
+      "planned_deadline_ns": 6914688253422,
+      "logical_completion_ns": 6914654253422,
+      "actual_start_ns": 6914640654000,
+      "actual_end_ns": 6914651044735,
+      "physical_deadline_met": true
+    },
+    {
+      "segment_id": "A5",
+      "logical_release_tick": 0,
+      "logical_start_tick": 10,
+      "logical_end_tick": 11,
+      "logical_deadline_tick": 20,
+      "planned_release_ns": 6914620253422,
+      "planned_deadline_ns": 6914688253422,
+      "logical_completion_ns": 6914657653422,
+      "actual_start_ns": 6914654254021,
+      "actual_end_ns": 6914654269961,
+      "physical_deadline_met": true
+    },
+    {
+      "segment_id": "A6",
+      "logical_release_tick": 0,
+      "logical_start_tick": 11,
+      "logical_end_tick": 12,
+      "logical_deadline_tick": 20,
+      "planned_release_ns": 6914620253422,
+      "planned_deadline_ns": 6914688253422,
+      "logical_completion_ns": 6914661053422,
+      "actual_start_ns": 6914657654276,
+      "actual_end_ns": 6914657669274,
+      "physical_deadline_met": true
+    },
+    {
+      "segment_id": "A7",
+      "logical_release_tick": 0,
+      "logical_start_tick": 12,
+      "logical_end_tick": 14,
+      "logical_deadline_tick": 20,
+      "planned_release_ns": 6914620253422,
+      "planned_deadline_ns": 6914688253422,
+      "logical_completion_ns": 6914667853422,
+      "actual_start_ns": 6914661053949,
+      "actual_end_ns": 6914664542465,
+      "physical_deadline_met": true
+    },
+    {
+      "segment_id": "S",
+      "logical_release_tick": 8,
+      "logical_start_tick": 14,
+      "logical_end_tick": 16,
+      "logical_deadline_tick": 20,
+      "planned_release_ns": 6914647453422,
+      "planned_deadline_ns": 6914688253422,
+      "logical_completion_ns": 6914674653422,
+      "actual_start_ns": 6914667871852,
+      "actual_end_ns": 6914671274574,
+      "physical_deadline_met": true
+    },
+    {
+      "segment_id": "A8",
+      "logical_release_tick": 8,
+      "logical_start_tick": 16,
+      "logical_end_tick": 19,
+      "logical_deadline_tick": 20,
+      "planned_release_ns": 6914647453422,
+      "planned_deadline_ns": 6914688253422,
+      "logical_completion_ns": 6914684853422,
+      "actual_start_ns": 6914674654101,
+      "actual_end_ns": 6914681895947,
+      "physical_deadline_met": true
+    }
+  ],
+  "final_shared_state": {
+    "version": 1,
+    "block_id": "block_1",
+    "instante": 119,
+    "indicators": {
+      "count": 120.0,
+      "min": 24.0,
+      "max": 35.7,
+      "mean": 29.754166666666666,
+      "variance": 11.951024305555556
+    },
+    "alert": "alerta_ativo",
+    "alert_active": true,
+    "command": "ligado",
+    "ventilation_on": true
+  },
+  "recorded_copy": {
+    "indicators": {
+      "count": 120.0,
+      "min": 24.0,
+      "max": 35.7,
+      "mean": 29.754166666666666,
+      "variance": 11.951024305555556
+    },
+    "alert": "alerta_ativo",
+    "alert_active": true,
+    "version": 1,
+    "block_id": "block_1",
+    "instante": 119,
+    "command": "ligado",
+    "ventilation_on": true
+  },
+  "output_path": "/tmp/str_art_exec_4uk1ceky/z3_tim_p3.json",
+  "input_path": "/home/thiago/Documentos/mestrado/Sistemas_em_tempo_real/escalonamento-pre-execucao-smt-z3/data/temperatures.csv",
+  "input_hash": "9641141406eb3b8e8386e7114807064aa67f2770a148a90c05688fed3b0fb588",
+  "application_config": {
+    "application_id": "temperature_fixture_v1",
+    "input_rows": 120,
+    "min_valid_samples": 12,
+    "moving_average_window": 5,
+    "valid_temperature_min": -20.0,
+    "valid_temperature_max": 80.0,
+    "alert_threshold": 30.0,
+    "control_threshold": 28.0
+  },
+  "versions": {
+    "str_project": "0.1.0",
+    "python": "3.10.19",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+    "z3": "5.4.1"
+  }
+}

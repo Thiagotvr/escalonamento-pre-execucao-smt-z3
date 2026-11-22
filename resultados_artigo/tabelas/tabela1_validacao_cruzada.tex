@@ -1,0 +1,23 @@
+\begin{table}[t]
+\centering
+\caption{Valida\c{c}\~ao cruzada de fidelidade e conformidade entre Or\'aculo, Xu \& Parnas e SMT/Z3.}
+\label{tab:validacao_cruzada}
+\scriptsize
+\begin{tabular}{lcccccc}
+\hline
+\textbf{Inst\^ancia / Lote} & \textbf{Seg./Unid.} & \textbf{Or\'aculo} & \textbf{Xu\&Parnas} & \textbf{SMT/Z3} & \textbf{Conc.} \\
+\hline
+temperature\_case\_v1 & 9/19 & -- & Vi\'avel & Vi\'avel & 100\% \\
+xu\_parnas\_example\_1 (G1) & 4/80 & -- & Vi\'avel & Vi\'avel & 100\% \\
+xu\_parnas\_example\_2 (G2) & 3/100 & -- & Vi\'avel & Vi\'avel & 100\% \\
+preempcao\_sem\_EX & 2/3 & Vi\'avel & Vi\'avel & Vi\'avel & 100\% \\
+exclusao\_dir\_A\_EX\_B & 2/3 & Invi\'avel & Invi\'avel & Invi\'avel & 100\% \\
+exclusao\_dir\_B\_EX\_A & 2/3 & Vi\'avel & Vi\'avel & Vi\'avel & 100\% \\
+inviavel\_ciclo\_PC & 2/4 & Invi\'avel & Invi\'avel & Invi\'avel & 100\% \\
+inviavel\_sobrecarga & 2/7 & Invi\'avel & Invi\'avel & Invi\'avel & 100\% \\
+\hline
+Lote aleat\'orio viab. ($N=100$) & 2--4 / 2--12 & 48V/52I & 100/100 & 100/100 & 100.0\% \\
+Lote aleat\'orio $\min L_{\max}$ ($N=30$) & 2--4 / 2--12 & 'Otimo & 30/30 & 30/30 & 100.0\% \\
+\hline
+\end{tabular}
+\end{table}

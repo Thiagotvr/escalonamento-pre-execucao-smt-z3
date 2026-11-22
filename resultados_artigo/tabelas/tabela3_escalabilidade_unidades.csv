@@ -1,0 +1,7 @@
+Fator,Unidades,Xu_status,Xu_mediana_ms,Z3_status,Z3_build_ms,Z3_search_ms,Z3_mediana_ms,Razao_Z3_Xu
+1x,19,feasible,0.773,feasible,3.568,3.592,15.606,20.2x
+2x,38,feasible,0.522,feasible,6.881,12.794,27.308,52.3x
+3x,57,feasible,0.774,feasible,9.451,24.985,41.209,53.2x
+4x,76,feasible,1.186,feasible,12.900,43.236,65.733,55.4x
+6x,114,feasible,0.805,feasible,16.290,113.841,135.131,167.9x
+8x,152,feasible,1.130,feasible,21.394,8.185,36.145,32.0x
