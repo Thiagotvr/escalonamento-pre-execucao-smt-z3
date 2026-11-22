@@ -90,3 +90,32 @@ def test_deliberate_slow_task_triggers_runtime_budget_violation(tmp_path: Path) 
     assert rep.failed_unit is not None
     assert rep.failed_unit["segment_id"] == "A2"
     assert rep.max_slot_overrun_ns > 0
+
+
+def test_calibration_produces_valid_quantum_for_timed_execution(tmp_path: Path) -> None:
+    from str_project.calibration import calibrate_quantum, load_calibration, save_calibration
+
+    inst = load_instance(ROOT / "instances" / "temperature_case.json")
+    cfg = default_application_config()
+    csv_path = ROOT / "data" / "temperatures.csv"
+
+    cal = calibrate_quantum(inst, csv_path, cfg, repetitions=5, warmup_runs=1)
+    assert cal.quantum_ns > cal.global_work_stats["max_ns"]
+    assert len(cal.per_unit_stats) == 19
+
+    cal_path = tmp_path / "calibration.json"
+    save_calibration(cal, cal_path)
+    loaded = load_calibration(cal_path)
+    assert loaded["quantum_ns"] == cal.quantum_ns
+
+    # Execute timed schedule using the calibrated quantum
+    tasks = build_tasks(cfg, csv_path, tmp_path / "calibrated_out.json")
+    rep = execute_schedule(
+        inst,
+        known_integration_schedule(),
+        tasks,
+        TimingConfig(mode="timed", quantum_ns=loaded["quantum_ns"]),
+    )
+    assert rep.status == "ok", f"Calibrated timed run failed: {rep.error_message}"
+    assert rep.units_executed == 19
+    assert rep.max_slot_overrun_ns == 0
