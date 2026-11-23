@@ -1,0 +1,273 @@
+{
+  "instance_id": "N3_H100_fronteira_critica_min_interval_J0__seed201",
+  "instance_hash": "06bf296c68fe141412594ac7649b95e80f2820998a8989bfbc86c7a21b1c4707",
+  "planner": "xu-parnas",
+  "objective": "feasibility",
+  "status": "infeasible",
+  "schedule": null,
+  "logical_lmax": 1,
+  "reason": "xu_parnas_search_exhausted_no_feasible_schedule",
+  "preprocessing_ns": 6610,
+  "model_build_ns": null,
+  "search_ns": 5789135,
+  "total_planning_ns": 6101599,
+  "nodes_generated": 1,
+  "nodes_expanded": 0,
+  "lower_bound": 1,
+  "versions": {
+    "str_project": "0.1.0",
+    "python": "3.10.19",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+    "z3": "5.4.1"
+  },
+  "validation": {
+    "ok": true,
+    "valid": true,
+    "feasible": false,
+    "require_deadlines": false,
+    "logical_lmax": 1,
+    "errors": [],
+    "segment_bounds": {
+      "T1_S1_k0": [
+        0,
+        2
+      ],
+      "T1_S1_k1": [
+        10,
+        12
+      ],
+      "T1_S1_k2": [
+        20,
+        22
+      ],
+      "T1_S1_k3": [
+        30,
+        32
+      ],
+      "T1_S1_k4": [
+        40,
+        42
+      ],
+      "T1_S1_k5": [
+        50,
+        52
+      ],
+      "T1_S1_k6": [
+        60,
+        62
+      ],
+      "T1_S1_k7": [
+        71,
+        73
+      ],
+      "T1_S1_k8": [
+        80,
+        82
+      ],
+      "T1_S1_k9": [
+        90,
+        92
+      ],
+      "T1_S2_k0": [
+        2,
+        4
+      ],
+      "T1_S2_k1": [
+        12,
+        14
+      ],
+      "T1_S2_k2": [
+        22,
+        24
+      ],
+      "T1_S2_k3": [
+        32,
+        34
+      ],
+      "T1_S2_k4": [
+        42,
+        44
+      ],
+      "T1_S2_k5": [
+        52,
+        54
+      ],
+      "T1_S2_k6": [
+        62,
+        64
+      ],
+      "T1_S2_k7": [
+        73,
+        75
+      ],
+      "T1_S2_k8": [
+        82,
+        84
+      ],
+      "T1_S2_k9": [
+        92,
+        94
+      ],
+      "T2_S1_k0": [
+        4,
+        5
+      ],
+      "T2_S1_k1": [
+        14,
+        15
+      ],
+      "T2_S1_k2": [
+        24,
+        25
+      ],
+      "T2_S1_k3": [
+        34,
+        35
+      ],
+      "T2_S1_k4": [
+        44,
+        45
+      ],
+      "T2_S1_k5": [
+        54,
+        55
+      ],
+      "T2_S1_k6": [
+        64,
+        65
+      ],
+      "T2_S1_k7": [
+        75,
+        76
+      ],
+      "T2_S1_k8": [
+        84,
+        85
+      ],
+      "T2_S1_k9": [
+        94,
+        95
+      ],
+      "T2_S2_k0": [
+        5,
+        7
+      ],
+      "T2_S2_k1": [
+        15,
+        17
+      ],
+      "T2_S2_k2": [
+        25,
+        27
+      ],
+      "T2_S2_k3": [
+        35,
+        37
+      ],
+      "T2_S2_k4": [
+        45,
+        47
+      ],
+      "T2_S2_k5": [
+        55,
+        57
+      ],
+      "T2_S2_k6": [
+        65,
+        67
+      ],
+      "T2_S2_k7": [
+        76,
+        78
+      ],
+      "T2_S2_k8": [
+        85,
+        87
+      ],
+      "T2_S2_k9": [
+        95,
+        97
+      ],
+      "T3_S1_k0": [
+        7,
+        8
+      ],
+      "T3_S1_k1": [
+        17,
+        18
+      ],
+      "T3_S1_k2": [
+        27,
+        28
+      ],
+      "T3_S1_k3": [
+        37,
+        38
+      ],
+      "T3_S1_k4": [
+        47,
+        48
+      ],
+      "T3_S1_k5": [
+        57,
+        58
+      ],
+      "T3_S1_k6": [
+        68,
+        69
+      ],
+      "T3_S1_k7": [
+        79,
+        80
+      ],
+      "T3_S1_k8": [
+        97,
+        98
+      ],
+      "T3_S2_k0": [
+        8,
+        10
+      ],
+      "T3_S2_k1": [
+        18,
+        20
+      ],
+      "T3_S2_k2": [
+        28,
+        30
+      ],
+      "T3_S2_k3": [
+        38,
+        40
+      ],
+      "T3_S2_k4": [
+        48,
+        50
+      ],
+      "T3_S2_k5": [
+        58,
+        60
+      ],
+      "T3_S2_k6": [
+        69,
+        71
+      ],
+      "T3_S2_k7": [
+        87,
+        89
+      ],
+      "T3_S2_k8": [
+        98,
+        100
+      ]
+    }
+  },
+  "details": {
+    "root_lmax": 1,
+    "root_lower_bound": 1,
+    "root_latest_segment": "T3_S2_k8",
+    "root_g1": [],
+    "root_g2": [],
+    "best_valid_lmax": 1
+  }
+}

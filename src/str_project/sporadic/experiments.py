@@ -416,8 +416,10 @@ def build_matrix_scenarios(matrix_cfg: dict[str, Any]) -> list[tuple[ScenarioSpe
                         j_items = [
                             (lbl, ratio)
                             for lbl, ratio in jitter_ratios.items()
-                            if ratio > 0.0 or pattern == "bursty"
+                            if ratio > 0.0
                         ]
+                        if not j_items:
+                            j_items = [("J0", 0.0)]
 
                     for j_label, j_ratio in j_items:
                         # Compute per-task integer jitter floor(T_i * ratio) documented explicitly

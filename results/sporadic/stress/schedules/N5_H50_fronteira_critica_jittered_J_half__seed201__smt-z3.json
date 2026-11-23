@@ -1,0 +1,541 @@
+{
+  "instance_id": "N5_H50_fronteira_critica_jittered_J_half__seed201",
+  "instance_hash": "78963ca9870394967983cf6df04fd9371ab00059b64b66a4e6980e8e8f0486f8",
+  "planner": "smt-z3",
+  "objective": "feasibility",
+  "status": "feasible",
+  "schedule": {
+    "units": [
+      {
+        "segment_id": "T4_S1_k0",
+        "unit_index": 1,
+        "start_tick": 0
+      },
+      {
+        "segment_id": "T4_S1_k0",
+        "unit_index": 2,
+        "start_tick": 1
+      },
+      {
+        "segment_id": "T1_S1_k0",
+        "unit_index": 1,
+        "start_tick": 2
+      },
+      {
+        "segment_id": "T1_S1_k0",
+        "unit_index": 2,
+        "start_tick": 3
+      },
+      {
+        "segment_id": "T1_S2_k0",
+        "unit_index": 1,
+        "start_tick": 4
+      },
+      {
+        "segment_id": "T5_S1_k0",
+        "unit_index": 1,
+        "start_tick": 5
+      },
+      {
+        "segment_id": "T5_S2_k0",
+        "unit_index": 1,
+        "start_tick": 6
+      },
+      {
+        "segment_id": "T5_S2_k0",
+        "unit_index": 2,
+        "start_tick": 7
+      },
+      {
+        "segment_id": "T1_S2_k0",
+        "unit_index": 2,
+        "start_tick": 8
+      },
+      {
+        "segment_id": "T2_S1_k0",
+        "unit_index": 1,
+        "start_tick": 9
+      },
+      {
+        "segment_id": "T2_S2_k0",
+        "unit_index": 1,
+        "start_tick": 10
+      },
+      {
+        "segment_id": "T2_S2_k0",
+        "unit_index": 2,
+        "start_tick": 11
+      },
+      {
+        "segment_id": "T4_S2_k0",
+        "unit_index": 1,
+        "start_tick": 12
+      },
+      {
+        "segment_id": "T4_S2_k0",
+        "unit_index": 2,
+        "start_tick": 13
+      },
+      {
+        "segment_id": "T3_S1_k0",
+        "unit_index": 1,
+        "start_tick": 14
+      },
+      {
+        "segment_id": "T3_S2_k0",
+        "unit_index": 1,
+        "start_tick": 15
+      },
+      {
+        "segment_id": "T3_S2_k0",
+        "unit_index": 2,
+        "start_tick": 16
+      },
+      {
+        "segment_id": "T1_S1_k1",
+        "unit_index": 1,
+        "start_tick": 18
+      },
+      {
+        "segment_id": "T1_S1_k1",
+        "unit_index": 2,
+        "start_tick": 19
+      },
+      {
+        "segment_id": "T1_S2_k1",
+        "unit_index": 1,
+        "start_tick": 20
+      },
+      {
+        "segment_id": "T1_S2_k1",
+        "unit_index": 2,
+        "start_tick": 21
+      },
+      {
+        "segment_id": "T2_S1_k1",
+        "unit_index": 1,
+        "start_tick": 22
+      },
+      {
+        "segment_id": "T2_S2_k1",
+        "unit_index": 1,
+        "start_tick": 23
+      },
+      {
+        "segment_id": "T2_S2_k1",
+        "unit_index": 2,
+        "start_tick": 24
+      },
+      {
+        "segment_id": "T4_S1_k1",
+        "unit_index": 1,
+        "start_tick": 25
+      },
+      {
+        "segment_id": "T4_S1_k1",
+        "unit_index": 2,
+        "start_tick": 26
+      },
+      {
+        "segment_id": "T4_S2_k1",
+        "unit_index": 1,
+        "start_tick": 27
+      },
+      {
+        "segment_id": "T4_S2_k1",
+        "unit_index": 2,
+        "start_tick": 28
+      },
+      {
+        "segment_id": "T5_S1_k1",
+        "unit_index": 1,
+        "start_tick": 29
+      },
+      {
+        "segment_id": "T5_S2_k1",
+        "unit_index": 1,
+        "start_tick": 30
+      },
+      {
+        "segment_id": "T5_S2_k1",
+        "unit_index": 2,
+        "start_tick": 31
+      },
+      {
+        "segment_id": "T3_S1_k1",
+        "unit_index": 1,
+        "start_tick": 32
+      },
+      {
+        "segment_id": "T3_S2_k1",
+        "unit_index": 1,
+        "start_tick": 33
+      },
+      {
+        "segment_id": "T3_S2_k1",
+        "unit_index": 2,
+        "start_tick": 34
+      },
+      {
+        "segment_id": "T2_S1_k2",
+        "unit_index": 1,
+        "start_tick": 38
+      },
+      {
+        "segment_id": "T2_S2_k2",
+        "unit_index": 1,
+        "start_tick": 39
+      },
+      {
+        "segment_id": "T2_S2_k2",
+        "unit_index": 2,
+        "start_tick": 40
+      }
+    ],
+    "merged_view": [
+      {
+        "segment_id": "T4_S1_k0",
+        "start_tick": 0,
+        "end_tick": 2,
+        "unit_indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k0",
+        "start_tick": 2,
+        "end_tick": 4,
+        "unit_indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k0",
+        "start_tick": 4,
+        "end_tick": 5,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T5_S1_k0",
+        "start_tick": 5,
+        "end_tick": 6,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T5_S2_k0",
+        "start_tick": 6,
+        "end_tick": 8,
+        "unit_indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k0",
+        "start_tick": 8,
+        "end_tick": 9,
+        "unit_indices": [
+          2,
+          2
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k0",
+        "start_tick": 9,
+        "end_tick": 10,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k0",
+        "start_tick": 10,
+        "end_tick": 12,
+        "unit_indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "segment_id": "T4_S2_k0",
+        "start_tick": 12,
+        "end_tick": 14,
+        "unit_indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k0",
+        "start_tick": 14,
+        "end_tick": 15,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k0",
+        "start_tick": 15,
+        "end_tick": 17,
+        "unit_indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k1",
+        "start_tick": 18,
+        "end_tick": 20,
+        "unit_indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k1",
+        "start_tick": 20,
+        "end_tick": 22,
+        "unit_indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k1",
+        "start_tick": 22,
+        "end_tick": 23,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k1",
+        "start_tick": 23,
+        "end_tick": 25,
+        "unit_indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "segment_id": "T4_S1_k1",
+        "start_tick": 25,
+        "end_tick": 27,
+        "unit_indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "segment_id": "T4_S2_k1",
+        "start_tick": 27,
+        "end_tick": 29,
+        "unit_indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "segment_id": "T5_S1_k1",
+        "start_tick": 29,
+        "end_tick": 30,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T5_S2_k1",
+        "start_tick": 30,
+        "end_tick": 32,
+        "unit_indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k1",
+        "start_tick": 32,
+        "end_tick": 33,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k1",
+        "start_tick": 33,
+        "end_tick": 35,
+        "unit_indices": [
+          1,
+          2
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k2",
+        "start_tick": 38,
+        "end_tick": 39,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k2",
+        "start_tick": 39,
+        "end_tick": 41,
+        "unit_indices": [
+          1,
+          2
+        ]
+      }
+    ]
+  },
+  "logical_lmax": 0,
+  "reason": "z3_sat_verified",
+  "preprocessing_ns": 2334396,
+  "model_build_ns": 6280406,
+  "search_ns": 22740743,
+  "total_planning_ns": 32728994,
+  "nodes_generated": null,
+  "nodes_expanded": null,
+  "lower_bound": null,
+  "versions": {
+    "str_project": "0.1.0",
+    "python": "3.10.19",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+    "z3": "5.4.1"
+  },
+  "validation": {
+    "ok": true,
+    "valid": true,
+    "feasible": true,
+    "require_deadlines": true,
+    "logical_lmax": 0,
+    "errors": [],
+    "segment_bounds": {
+      "T1_S1_k0": [
+        2,
+        4
+      ],
+      "T1_S1_k1": [
+        18,
+        20
+      ],
+      "T1_S2_k0": [
+        4,
+        9
+      ],
+      "T1_S2_k1": [
+        20,
+        22
+      ],
+      "T2_S1_k0": [
+        9,
+        10
+      ],
+      "T2_S1_k1": [
+        22,
+        23
+      ],
+      "T2_S1_k2": [
+        38,
+        39
+      ],
+      "T2_S2_k0": [
+        10,
+        12
+      ],
+      "T2_S2_k1": [
+        23,
+        25
+      ],
+      "T2_S2_k2": [
+        39,
+        41
+      ],
+      "T3_S1_k0": [
+        14,
+        15
+      ],
+      "T3_S1_k1": [
+        32,
+        33
+      ],
+      "T3_S2_k0": [
+        15,
+        17
+      ],
+      "T3_S2_k1": [
+        33,
+        35
+      ],
+      "T4_S1_k0": [
+        0,
+        2
+      ],
+      "T4_S1_k1": [
+        25,
+        27
+      ],
+      "T4_S2_k0": [
+        12,
+        14
+      ],
+      "T4_S2_k1": [
+        27,
+        29
+      ],
+      "T5_S1_k0": [
+        5,
+        6
+      ],
+      "T5_S1_k1": [
+        29,
+        30
+      ],
+      "T5_S2_k0": [
+        6,
+        8
+      ],
+      "T5_S2_k1": [
+        30,
+        32
+      ]
+    }
+  },
+  "details": {
+    "z3_statistics": {
+      "conflicts": 628,
+      "decisions": 784,
+      "propagations": 3942,
+      "binary propagations": 3775,
+      "restarts": 5,
+      "final checks": 1,
+      "mk clause": 622,
+      "mk clause binary": 674,
+      "del clause": 244,
+      "minimized lits": 360,
+      "num checks": 1,
+      "mk bool var": 1436,
+      "dd assertions": 4404,
+      "dd propagations": 11613,
+      "num allocs": 1176394923,
+      "rlimit count": 103679,
+      "max memory": 26.85,
+      "memory": 18.57,
+      "time": 0.022
+    }
+  }
+}

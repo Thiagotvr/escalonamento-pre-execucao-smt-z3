@@ -1,0 +1,41 @@
+{
+  "instance_id": "N3_H100_fronteira_critica_bursty_J_half__seed201",
+  "instance_hash": "e23297a8c08cf3ed7187c30b3bd6918a480575297c95cde82f4852a494984e4b",
+  "planner": "smt-z3",
+  "objective": "feasibility",
+  "status": "infeasible",
+  "schedule": null,
+  "logical_lmax": null,
+  "reason": "z3_unsat_faithful_model",
+  "preprocessing_ns": 1679990,
+  "model_build_ns": 12760143,
+  "search_ns": 38503957,
+  "total_planning_ns": 53254889,
+  "nodes_generated": null,
+  "nodes_expanded": null,
+  "lower_bound": null,
+  "versions": {
+    "str_project": "0.1.0",
+    "python": "3.10.19",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+    "z3": "5.4.1"
+  },
+  "validation": null,
+  "details": {
+    "z3_statistics": {
+      "conflicts": 1,
+      "propagations": 63,
+      "binary propagations": 63,
+      "mk clause binary": 2936,
+      "num checks": 1,
+      "mk bool var": 6089,
+      "dd assertions": 285,
+      "dd propagations": 5787,
+      "num allocs": 658116825,
+      "rlimit count": 274983,
+      "max memory": 26.85,
+      "memory": 19.71,
+      "time": 0.038
+    }
+  }
+}

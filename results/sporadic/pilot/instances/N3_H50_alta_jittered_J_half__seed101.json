@@ -1,0 +1,533 @@
+{
+  "schema_version": "sporadic-v1",
+  "scenario_id": "N3_H50_alta_jittered_J_half",
+  "seed": 101,
+  "generation_mode": "jittered",
+  "horizon": 50,
+  "horizon_policy": "deadline_within_horizon",
+  "time_unit": "logical_unit",
+  "objective": "feasibility",
+  "task_specs": [
+    {
+      "id": "T1",
+      "C": 4,
+      "D": 8,
+      "T": 11,
+      "offset": 0,
+      "segments": [
+        {
+          "id": "S1",
+          "execution_units": 2
+        },
+        {
+          "id": "S2",
+          "execution_units": 2
+        }
+      ],
+      "jitter_max": 5
+    },
+    {
+      "id": "T2",
+      "C": 3,
+      "D": 7,
+      "T": 10,
+      "offset": 0,
+      "segments": [
+        {
+          "id": "S1",
+          "execution_units": 1
+        },
+        {
+          "id": "S2",
+          "execution_units": 2
+        }
+      ],
+      "jitter_max": 5
+    },
+    {
+      "id": "T3",
+      "C": 3,
+      "D": 8,
+      "T": 10,
+      "offset": 1,
+      "segments": [
+        {
+          "id": "S1",
+          "execution_units": 1
+        },
+        {
+          "id": "S2",
+          "execution_units": 2
+        }
+      ],
+      "jitter_max": 5
+    }
+  ],
+  "cross_rules": [
+    {
+      "kind": "exclusion",
+      "src_task": "T1",
+      "src_segment": "S2",
+      "dst_task": "T2",
+      "dst_segment": "S1",
+      "scope": "all_overlapping"
+    },
+    {
+      "kind": "exclusion",
+      "src_task": "T2",
+      "src_segment": "S2",
+      "dst_task": "T3",
+      "dst_segment": "S1",
+      "scope": "all_overlapping"
+    }
+  ],
+  "activations": [
+    {
+      "task_id": "T1",
+      "activation_index": 0,
+      "job_id": "T1_k0",
+      "process_id": "P_T1_k0",
+      "release": 0,
+      "absolute_deadline": 8,
+      "execution_units": 4
+    },
+    {
+      "task_id": "T2",
+      "activation_index": 0,
+      "job_id": "T2_k0",
+      "process_id": "P_T2_k0",
+      "release": 0,
+      "absolute_deadline": 7,
+      "execution_units": 3
+    },
+    {
+      "task_id": "T3",
+      "activation_index": 0,
+      "job_id": "T3_k0",
+      "process_id": "P_T3_k0",
+      "release": 1,
+      "absolute_deadline": 9,
+      "execution_units": 3
+    },
+    {
+      "task_id": "T3",
+      "activation_index": 1,
+      "job_id": "T3_k1",
+      "process_id": "P_T3_k1",
+      "release": 12,
+      "absolute_deadline": 20,
+      "execution_units": 3
+    },
+    {
+      "task_id": "T2",
+      "activation_index": 1,
+      "job_id": "T2_k1",
+      "process_id": "P_T2_k1",
+      "release": 13,
+      "absolute_deadline": 20,
+      "execution_units": 3
+    },
+    {
+      "task_id": "T1",
+      "activation_index": 1,
+      "job_id": "T1_k1",
+      "process_id": "P_T1_k1",
+      "release": 15,
+      "absolute_deadline": 23,
+      "execution_units": 4
+    },
+    {
+      "task_id": "T2",
+      "activation_index": 2,
+      "job_id": "T2_k2",
+      "process_id": "P_T2_k2",
+      "release": 23,
+      "absolute_deadline": 30,
+      "execution_units": 3
+    },
+    {
+      "task_id": "T3",
+      "activation_index": 2,
+      "job_id": "T3_k2",
+      "process_id": "P_T3_k2",
+      "release": 26,
+      "absolute_deadline": 34,
+      "execution_units": 3
+    },
+    {
+      "task_id": "T1",
+      "activation_index": 2,
+      "job_id": "T1_k2",
+      "process_id": "P_T1_k2",
+      "release": 27,
+      "absolute_deadline": 35,
+      "execution_units": 4
+    },
+    {
+      "task_id": "T3",
+      "activation_index": 3,
+      "job_id": "T3_k3",
+      "process_id": "P_T3_k3",
+      "release": 37,
+      "absolute_deadline": 45,
+      "execution_units": 3
+    },
+    {
+      "task_id": "T2",
+      "activation_index": 3,
+      "job_id": "T2_k3",
+      "process_id": "P_T2_k3",
+      "release": 38,
+      "absolute_deadline": 45,
+      "execution_units": 3
+    },
+    {
+      "task_id": "T1",
+      "activation_index": 3,
+      "job_id": "T1_k3",
+      "process_id": "P_T1_k3",
+      "release": 42,
+      "absolute_deadline": 50,
+      "execution_units": 4
+    }
+  ],
+  "discarded_activations": [
+    {
+      "task_id": "T3",
+      "activation_index": 4,
+      "release": 49,
+      "absolute_deadline": 57,
+      "reason": "deadline_exceeds_horizon"
+    }
+  ],
+  "processes": [
+    {
+      "id": "P_T1_k0",
+      "segments": [
+        "T1_S1_k0",
+        "T1_S2_k0"
+      ]
+    },
+    {
+      "id": "P_T2_k0",
+      "segments": [
+        "T2_S1_k0",
+        "T2_S2_k0"
+      ]
+    },
+    {
+      "id": "P_T3_k0",
+      "segments": [
+        "T3_S1_k0",
+        "T3_S2_k0"
+      ]
+    },
+    {
+      "id": "P_T3_k1",
+      "segments": [
+        "T3_S1_k1",
+        "T3_S2_k1"
+      ]
+    },
+    {
+      "id": "P_T2_k1",
+      "segments": [
+        "T2_S1_k1",
+        "T2_S2_k1"
+      ]
+    },
+    {
+      "id": "P_T1_k1",
+      "segments": [
+        "T1_S1_k1",
+        "T1_S2_k1"
+      ]
+    },
+    {
+      "id": "P_T2_k2",
+      "segments": [
+        "T2_S1_k2",
+        "T2_S2_k2"
+      ]
+    },
+    {
+      "id": "P_T3_k2",
+      "segments": [
+        "T3_S1_k2",
+        "T3_S2_k2"
+      ]
+    },
+    {
+      "id": "P_T1_k2",
+      "segments": [
+        "T1_S1_k2",
+        "T1_S2_k2"
+      ]
+    },
+    {
+      "id": "P_T3_k3",
+      "segments": [
+        "T3_S1_k3",
+        "T3_S2_k3"
+      ]
+    },
+    {
+      "id": "P_T2_k3",
+      "segments": [
+        "T2_S1_k3",
+        "T2_S2_k3"
+      ]
+    },
+    {
+      "id": "P_T1_k3",
+      "segments": [
+        "T1_S1_k3",
+        "T1_S2_k3"
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": "T1_S1_k0",
+      "release": 0,
+      "execution_units": 2,
+      "deadline": 8
+    },
+    {
+      "id": "T1_S2_k0",
+      "release": 0,
+      "execution_units": 2,
+      "deadline": 8
+    },
+    {
+      "id": "T2_S1_k0",
+      "release": 0,
+      "execution_units": 1,
+      "deadline": 7
+    },
+    {
+      "id": "T2_S2_k0",
+      "release": 0,
+      "execution_units": 2,
+      "deadline": 7
+    },
+    {
+      "id": "T3_S1_k0",
+      "release": 1,
+      "execution_units": 1,
+      "deadline": 9
+    },
+    {
+      "id": "T3_S2_k0",
+      "release": 1,
+      "execution_units": 2,
+      "deadline": 9
+    },
+    {
+      "id": "T3_S1_k1",
+      "release": 12,
+      "execution_units": 1,
+      "deadline": 20
+    },
+    {
+      "id": "T3_S2_k1",
+      "release": 12,
+      "execution_units": 2,
+      "deadline": 20
+    },
+    {
+      "id": "T2_S1_k1",
+      "release": 13,
+      "execution_units": 1,
+      "deadline": 20
+    },
+    {
+      "id": "T2_S2_k1",
+      "release": 13,
+      "execution_units": 2,
+      "deadline": 20
+    },
+    {
+      "id": "T1_S1_k1",
+      "release": 15,
+      "execution_units": 2,
+      "deadline": 23
+    },
+    {
+      "id": "T1_S2_k1",
+      "release": 15,
+      "execution_units": 2,
+      "deadline": 23
+    },
+    {
+      "id": "T2_S1_k2",
+      "release": 23,
+      "execution_units": 1,
+      "deadline": 30
+    },
+    {
+      "id": "T2_S2_k2",
+      "release": 23,
+      "execution_units": 2,
+      "deadline": 30
+    },
+    {
+      "id": "T3_S1_k2",
+      "release": 26,
+      "execution_units": 1,
+      "deadline": 34
+    },
+    {
+      "id": "T3_S2_k2",
+      "release": 26,
+      "execution_units": 2,
+      "deadline": 34
+    },
+    {
+      "id": "T1_S1_k2",
+      "release": 27,
+      "execution_units": 2,
+      "deadline": 35
+    },
+    {
+      "id": "T1_S2_k2",
+      "release": 27,
+      "execution_units": 2,
+      "deadline": 35
+    },
+    {
+      "id": "T3_S1_k3",
+      "release": 37,
+      "execution_units": 1,
+      "deadline": 45
+    },
+    {
+      "id": "T3_S2_k3",
+      "release": 37,
+      "execution_units": 2,
+      "deadline": 45
+    },
+    {
+      "id": "T2_S1_k3",
+      "release": 38,
+      "execution_units": 1,
+      "deadline": 45
+    },
+    {
+      "id": "T2_S2_k3",
+      "release": 38,
+      "execution_units": 2,
+      "deadline": 45
+    },
+    {
+      "id": "T1_S1_k3",
+      "release": 42,
+      "execution_units": 2,
+      "deadline": 50
+    },
+    {
+      "id": "T1_S2_k3",
+      "release": 42,
+      "execution_units": 2,
+      "deadline": 50
+    }
+  ],
+  "precedences": [
+    [
+      "T1_S1_k0",
+      "T1_S2_k0"
+    ],
+    [
+      "T2_S1_k0",
+      "T2_S2_k0"
+    ],
+    [
+      "T3_S1_k0",
+      "T3_S2_k0"
+    ],
+    [
+      "T3_S1_k1",
+      "T3_S2_k1"
+    ],
+    [
+      "T2_S1_k1",
+      "T2_S2_k1"
+    ],
+    [
+      "T1_S1_k1",
+      "T1_S2_k1"
+    ],
+    [
+      "T2_S1_k2",
+      "T2_S2_k2"
+    ],
+    [
+      "T3_S1_k2",
+      "T3_S2_k2"
+    ],
+    [
+      "T1_S1_k2",
+      "T1_S2_k2"
+    ],
+    [
+      "T3_S1_k3",
+      "T3_S2_k3"
+    ],
+    [
+      "T2_S1_k3",
+      "T2_S2_k3"
+    ],
+    [
+      "T1_S1_k3",
+      "T1_S2_k3"
+    ]
+  ],
+  "exclusions": [
+    [
+      "T1_S2_k0",
+      "T2_S1_k0"
+    ],
+    [
+      "T1_S2_k1",
+      "T2_S1_k1"
+    ],
+    [
+      "T1_S2_k2",
+      "T2_S1_k2"
+    ],
+    [
+      "T1_S2_k3",
+      "T2_S1_k3"
+    ],
+    [
+      "T2_S2_k0",
+      "T3_S1_k0"
+    ],
+    [
+      "T2_S2_k1",
+      "T3_S1_k1"
+    ],
+    [
+      "T2_S2_k2",
+      "T3_S1_k2"
+    ],
+    [
+      "T2_S2_k3",
+      "T3_S1_k3"
+    ]
+  ],
+  "sequence_hash": "286b6b7229545d97ab97c81de81ffe527597a4f181640caaed28a88c20eb283b",
+  "instance_hash": "87cd3ccb0ae41ae55d067a35bab10b7b2b0747456083af1883242454c7127b27",
+  "input_hash": "a6992ca784ce217c3123aa9ecbfbd39b163f55fbe8e633ab0ef47fb9ccdca981",
+  "metadata": {
+    "num_tasks": 3,
+    "num_jobs": 12,
+    "num_discarded_jobs": 1,
+    "num_segments": 24,
+    "total_units": 40,
+    "num_precedences": 12,
+    "num_exclusions": 8,
+    "nominal_utilization": 0.9636363636363636,
+    "effective_utilization": 0.8
+  }
+}

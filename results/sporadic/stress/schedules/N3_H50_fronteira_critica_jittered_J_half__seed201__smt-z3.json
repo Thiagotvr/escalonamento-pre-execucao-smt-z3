@@ -1,0 +1,39 @@
+{
+  "instance_id": "N3_H50_fronteira_critica_jittered_J_half__seed201",
+  "instance_hash": "82728a963600c9acd2f861c481f0e3fd94732f7fff7b3d26008c2452c110ed2d",
+  "planner": "smt-z3",
+  "objective": "feasibility",
+  "status": "infeasible",
+  "schedule": null,
+  "logical_lmax": null,
+  "reason": "z3_unsat_faithful_model",
+  "preprocessing_ns": 4610072,
+  "model_build_ns": 7840050,
+  "search_ns": 10795651,
+  "total_planning_ns": 23479944,
+  "nodes_generated": null,
+  "nodes_expanded": null,
+  "lower_bound": null,
+  "versions": {
+    "str_project": "0.1.0",
+    "python": "3.10.19",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+    "z3": "5.4.1"
+  },
+  "validation": null,
+  "details": {
+    "z3_statistics": {
+      "conflicts": 1,
+      "mk clause binary": 670,
+      "num checks": 1,
+      "mk bool var": 1443,
+      "dd assertions": 106,
+      "dd propagations": 1227,
+      "num allocs": 24736314,
+      "rlimit count": 63434,
+      "max memory": 20.3,
+      "memory": 18.55,
+      "time": 0.01
+    }
+  }
+}

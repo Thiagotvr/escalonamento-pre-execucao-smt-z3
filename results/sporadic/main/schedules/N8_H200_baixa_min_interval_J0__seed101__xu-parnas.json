@@ -1,0 +1,1305 @@
+{
+  "instance_id": "N8_H200_baixa_min_interval_J0__seed101",
+  "instance_hash": "a81b9e65bdbfc3c930e002dac21bd8fa1c40ad7cf9414e7e014c42a284d86168",
+  "planner": "xu-parnas",
+  "objective": "feasibility",
+  "status": "feasible",
+  "schedule": {
+    "units": [
+      {
+        "segment_id": "T1_S1_k0",
+        "unit_index": 1,
+        "start_tick": 0
+      },
+      {
+        "segment_id": "T1_S2_k0",
+        "unit_index": 1,
+        "start_tick": 1
+      },
+      {
+        "segment_id": "T4_S1_k0",
+        "unit_index": 1,
+        "start_tick": 2
+      },
+      {
+        "segment_id": "T4_S2_k0",
+        "unit_index": 1,
+        "start_tick": 3
+      },
+      {
+        "segment_id": "T7_S1_k0",
+        "unit_index": 1,
+        "start_tick": 4
+      },
+      {
+        "segment_id": "T7_S2_k0",
+        "unit_index": 1,
+        "start_tick": 5
+      },
+      {
+        "segment_id": "T2_S1_k0",
+        "unit_index": 1,
+        "start_tick": 6
+      },
+      {
+        "segment_id": "T2_S2_k0",
+        "unit_index": 1,
+        "start_tick": 7
+      },
+      {
+        "segment_id": "T5_S1_k0",
+        "unit_index": 1,
+        "start_tick": 8
+      },
+      {
+        "segment_id": "T5_S2_k0",
+        "unit_index": 1,
+        "start_tick": 9
+      },
+      {
+        "segment_id": "T8_S1_k0",
+        "unit_index": 1,
+        "start_tick": 10
+      },
+      {
+        "segment_id": "T8_S2_k0",
+        "unit_index": 1,
+        "start_tick": 11
+      },
+      {
+        "segment_id": "T3_S1_k0",
+        "unit_index": 1,
+        "start_tick": 12
+      },
+      {
+        "segment_id": "T3_S2_k0",
+        "unit_index": 1,
+        "start_tick": 13
+      },
+      {
+        "segment_id": "T6_S1_k0",
+        "unit_index": 1,
+        "start_tick": 14
+      },
+      {
+        "segment_id": "T6_S2_k0",
+        "unit_index": 1,
+        "start_tick": 15
+      },
+      {
+        "segment_id": "T1_S1_k1",
+        "unit_index": 1,
+        "start_tick": 40
+      },
+      {
+        "segment_id": "T1_S2_k1",
+        "unit_index": 1,
+        "start_tick": 41
+      },
+      {
+        "segment_id": "T4_S1_k1",
+        "unit_index": 1,
+        "start_tick": 42
+      },
+      {
+        "segment_id": "T4_S2_k1",
+        "unit_index": 1,
+        "start_tick": 43
+      },
+      {
+        "segment_id": "T7_S1_k1",
+        "unit_index": 1,
+        "start_tick": 44
+      },
+      {
+        "segment_id": "T7_S2_k1",
+        "unit_index": 1,
+        "start_tick": 45
+      },
+      {
+        "segment_id": "T2_S1_k1",
+        "unit_index": 1,
+        "start_tick": 46
+      },
+      {
+        "segment_id": "T2_S2_k1",
+        "unit_index": 1,
+        "start_tick": 47
+      },
+      {
+        "segment_id": "T5_S1_k1",
+        "unit_index": 1,
+        "start_tick": 48
+      },
+      {
+        "segment_id": "T5_S2_k1",
+        "unit_index": 1,
+        "start_tick": 49
+      },
+      {
+        "segment_id": "T8_S1_k1",
+        "unit_index": 1,
+        "start_tick": 50
+      },
+      {
+        "segment_id": "T8_S2_k1",
+        "unit_index": 1,
+        "start_tick": 51
+      },
+      {
+        "segment_id": "T3_S1_k1",
+        "unit_index": 1,
+        "start_tick": 52
+      },
+      {
+        "segment_id": "T3_S2_k1",
+        "unit_index": 1,
+        "start_tick": 53
+      },
+      {
+        "segment_id": "T6_S1_k1",
+        "unit_index": 1,
+        "start_tick": 54
+      },
+      {
+        "segment_id": "T6_S2_k1",
+        "unit_index": 1,
+        "start_tick": 55
+      },
+      {
+        "segment_id": "T1_S1_k2",
+        "unit_index": 1,
+        "start_tick": 80
+      },
+      {
+        "segment_id": "T1_S2_k2",
+        "unit_index": 1,
+        "start_tick": 81
+      },
+      {
+        "segment_id": "T4_S1_k2",
+        "unit_index": 1,
+        "start_tick": 82
+      },
+      {
+        "segment_id": "T4_S2_k2",
+        "unit_index": 1,
+        "start_tick": 83
+      },
+      {
+        "segment_id": "T7_S1_k2",
+        "unit_index": 1,
+        "start_tick": 84
+      },
+      {
+        "segment_id": "T7_S2_k2",
+        "unit_index": 1,
+        "start_tick": 85
+      },
+      {
+        "segment_id": "T2_S1_k2",
+        "unit_index": 1,
+        "start_tick": 88
+      },
+      {
+        "segment_id": "T2_S2_k2",
+        "unit_index": 1,
+        "start_tick": 89
+      },
+      {
+        "segment_id": "T5_S1_k2",
+        "unit_index": 1,
+        "start_tick": 90
+      },
+      {
+        "segment_id": "T5_S2_k2",
+        "unit_index": 1,
+        "start_tick": 91
+      },
+      {
+        "segment_id": "T8_S1_k2",
+        "unit_index": 1,
+        "start_tick": 92
+      },
+      {
+        "segment_id": "T8_S2_k2",
+        "unit_index": 1,
+        "start_tick": 93
+      },
+      {
+        "segment_id": "T3_S1_k2",
+        "unit_index": 1,
+        "start_tick": 100
+      },
+      {
+        "segment_id": "T3_S2_k2",
+        "unit_index": 1,
+        "start_tick": 101
+      },
+      {
+        "segment_id": "T6_S1_k2",
+        "unit_index": 1,
+        "start_tick": 102
+      },
+      {
+        "segment_id": "T6_S2_k2",
+        "unit_index": 1,
+        "start_tick": 103
+      },
+      {
+        "segment_id": "T1_S1_k3",
+        "unit_index": 1,
+        "start_tick": 120
+      },
+      {
+        "segment_id": "T1_S2_k3",
+        "unit_index": 1,
+        "start_tick": 121
+      },
+      {
+        "segment_id": "T4_S1_k3",
+        "unit_index": 1,
+        "start_tick": 122
+      },
+      {
+        "segment_id": "T4_S2_k3",
+        "unit_index": 1,
+        "start_tick": 123
+      },
+      {
+        "segment_id": "T7_S1_k3",
+        "unit_index": 1,
+        "start_tick": 124
+      },
+      {
+        "segment_id": "T7_S2_k3",
+        "unit_index": 1,
+        "start_tick": 125
+      },
+      {
+        "segment_id": "T2_S1_k3",
+        "unit_index": 1,
+        "start_tick": 131
+      },
+      {
+        "segment_id": "T2_S2_k3",
+        "unit_index": 1,
+        "start_tick": 132
+      },
+      {
+        "segment_id": "T5_S1_k3",
+        "unit_index": 1,
+        "start_tick": 133
+      },
+      {
+        "segment_id": "T5_S2_k3",
+        "unit_index": 1,
+        "start_tick": 134
+      },
+      {
+        "segment_id": "T8_S1_k3",
+        "unit_index": 1,
+        "start_tick": 135
+      },
+      {
+        "segment_id": "T8_S2_k3",
+        "unit_index": 1,
+        "start_tick": 136
+      },
+      {
+        "segment_id": "T3_S1_k3",
+        "unit_index": 1,
+        "start_tick": 148
+      },
+      {
+        "segment_id": "T3_S2_k3",
+        "unit_index": 1,
+        "start_tick": 149
+      },
+      {
+        "segment_id": "T6_S1_k3",
+        "unit_index": 1,
+        "start_tick": 150
+      },
+      {
+        "segment_id": "T6_S2_k3",
+        "unit_index": 1,
+        "start_tick": 151
+      },
+      {
+        "segment_id": "T1_S1_k4",
+        "unit_index": 1,
+        "start_tick": 160
+      },
+      {
+        "segment_id": "T1_S2_k4",
+        "unit_index": 1,
+        "start_tick": 161
+      },
+      {
+        "segment_id": "T4_S1_k4",
+        "unit_index": 1,
+        "start_tick": 162
+      },
+      {
+        "segment_id": "T4_S2_k4",
+        "unit_index": 1,
+        "start_tick": 163
+      },
+      {
+        "segment_id": "T7_S1_k4",
+        "unit_index": 1,
+        "start_tick": 164
+      },
+      {
+        "segment_id": "T7_S2_k4",
+        "unit_index": 1,
+        "start_tick": 165
+      }
+    ],
+    "merged_view": [
+      {
+        "segment_id": "T1_S1_k0",
+        "start_tick": 0,
+        "end_tick": 1,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k0",
+        "start_tick": 1,
+        "end_tick": 2,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T4_S1_k0",
+        "start_tick": 2,
+        "end_tick": 3,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T4_S2_k0",
+        "start_tick": 3,
+        "end_tick": 4,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T7_S1_k0",
+        "start_tick": 4,
+        "end_tick": 5,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T7_S2_k0",
+        "start_tick": 5,
+        "end_tick": 6,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k0",
+        "start_tick": 6,
+        "end_tick": 7,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k0",
+        "start_tick": 7,
+        "end_tick": 8,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T5_S1_k0",
+        "start_tick": 8,
+        "end_tick": 9,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T5_S2_k0",
+        "start_tick": 9,
+        "end_tick": 10,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T8_S1_k0",
+        "start_tick": 10,
+        "end_tick": 11,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T8_S2_k0",
+        "start_tick": 11,
+        "end_tick": 12,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k0",
+        "start_tick": 12,
+        "end_tick": 13,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k0",
+        "start_tick": 13,
+        "end_tick": 14,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T6_S1_k0",
+        "start_tick": 14,
+        "end_tick": 15,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T6_S2_k0",
+        "start_tick": 15,
+        "end_tick": 16,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k1",
+        "start_tick": 40,
+        "end_tick": 41,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k1",
+        "start_tick": 41,
+        "end_tick": 42,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T4_S1_k1",
+        "start_tick": 42,
+        "end_tick": 43,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T4_S2_k1",
+        "start_tick": 43,
+        "end_tick": 44,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T7_S1_k1",
+        "start_tick": 44,
+        "end_tick": 45,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T7_S2_k1",
+        "start_tick": 45,
+        "end_tick": 46,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k1",
+        "start_tick": 46,
+        "end_tick": 47,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k1",
+        "start_tick": 47,
+        "end_tick": 48,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T5_S1_k1",
+        "start_tick": 48,
+        "end_tick": 49,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T5_S2_k1",
+        "start_tick": 49,
+        "end_tick": 50,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T8_S1_k1",
+        "start_tick": 50,
+        "end_tick": 51,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T8_S2_k1",
+        "start_tick": 51,
+        "end_tick": 52,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k1",
+        "start_tick": 52,
+        "end_tick": 53,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k1",
+        "start_tick": 53,
+        "end_tick": 54,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T6_S1_k1",
+        "start_tick": 54,
+        "end_tick": 55,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T6_S2_k1",
+        "start_tick": 55,
+        "end_tick": 56,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k2",
+        "start_tick": 80,
+        "end_tick": 81,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k2",
+        "start_tick": 81,
+        "end_tick": 82,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T4_S1_k2",
+        "start_tick": 82,
+        "end_tick": 83,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T4_S2_k2",
+        "start_tick": 83,
+        "end_tick": 84,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T7_S1_k2",
+        "start_tick": 84,
+        "end_tick": 85,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T7_S2_k2",
+        "start_tick": 85,
+        "end_tick": 86,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k2",
+        "start_tick": 88,
+        "end_tick": 89,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k2",
+        "start_tick": 89,
+        "end_tick": 90,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T5_S1_k2",
+        "start_tick": 90,
+        "end_tick": 91,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T5_S2_k2",
+        "start_tick": 91,
+        "end_tick": 92,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T8_S1_k2",
+        "start_tick": 92,
+        "end_tick": 93,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T8_S2_k2",
+        "start_tick": 93,
+        "end_tick": 94,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k2",
+        "start_tick": 100,
+        "end_tick": 101,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k2",
+        "start_tick": 101,
+        "end_tick": 102,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T6_S1_k2",
+        "start_tick": 102,
+        "end_tick": 103,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T6_S2_k2",
+        "start_tick": 103,
+        "end_tick": 104,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k3",
+        "start_tick": 120,
+        "end_tick": 121,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k3",
+        "start_tick": 121,
+        "end_tick": 122,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T4_S1_k3",
+        "start_tick": 122,
+        "end_tick": 123,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T4_S2_k3",
+        "start_tick": 123,
+        "end_tick": 124,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T7_S1_k3",
+        "start_tick": 124,
+        "end_tick": 125,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T7_S2_k3",
+        "start_tick": 125,
+        "end_tick": 126,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k3",
+        "start_tick": 131,
+        "end_tick": 132,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k3",
+        "start_tick": 132,
+        "end_tick": 133,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T5_S1_k3",
+        "start_tick": 133,
+        "end_tick": 134,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T5_S2_k3",
+        "start_tick": 134,
+        "end_tick": 135,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T8_S1_k3",
+        "start_tick": 135,
+        "end_tick": 136,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T8_S2_k3",
+        "start_tick": 136,
+        "end_tick": 137,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k3",
+        "start_tick": 148,
+        "end_tick": 149,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k3",
+        "start_tick": 149,
+        "end_tick": 150,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T6_S1_k3",
+        "start_tick": 150,
+        "end_tick": 151,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T6_S2_k3",
+        "start_tick": 151,
+        "end_tick": 152,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k4",
+        "start_tick": 160,
+        "end_tick": 161,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k4",
+        "start_tick": 161,
+        "end_tick": 162,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T4_S1_k4",
+        "start_tick": 162,
+        "end_tick": 163,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T4_S2_k4",
+        "start_tick": 163,
+        "end_tick": 164,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T7_S1_k4",
+        "start_tick": 164,
+        "end_tick": 165,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T7_S2_k4",
+        "start_tick": 165,
+        "end_tick": 166,
+        "unit_indices": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  "logical_lmax": -21,
+  "reason": "xu_parnas_feasible_verified",
+  "preprocessing_ns": 3554,
+  "model_build_ns": null,
+  "search_ns": 12876506,
+  "total_planning_ns": 13019398,
+  "nodes_generated": 1,
+  "nodes_expanded": 0,
+  "lower_bound": -21,
+  "versions": {
+    "str_project": "0.1.0",
+    "python": "3.10.19",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+    "z3": "5.4.1"
+  },
+  "validation": {
+    "ok": true,
+    "valid": true,
+    "feasible": true,
+    "require_deadlines": true,
+    "logical_lmax": -21,
+    "errors": [],
+    "segment_bounds": {
+      "T1_S1_k0": [
+        0,
+        1
+      ],
+      "T1_S1_k1": [
+        40,
+        41
+      ],
+      "T1_S1_k2": [
+        80,
+        81
+      ],
+      "T1_S1_k3": [
+        120,
+        121
+      ],
+      "T1_S1_k4": [
+        160,
+        161
+      ],
+      "T1_S2_k0": [
+        1,
+        2
+      ],
+      "T1_S2_k1": [
+        41,
+        42
+      ],
+      "T1_S2_k2": [
+        81,
+        82
+      ],
+      "T1_S2_k3": [
+        121,
+        122
+      ],
+      "T1_S2_k4": [
+        161,
+        162
+      ],
+      "T2_S1_k0": [
+        6,
+        7
+      ],
+      "T2_S1_k1": [
+        46,
+        47
+      ],
+      "T2_S1_k2": [
+        88,
+        89
+      ],
+      "T2_S1_k3": [
+        131,
+        132
+      ],
+      "T2_S2_k0": [
+        7,
+        8
+      ],
+      "T2_S2_k1": [
+        47,
+        48
+      ],
+      "T2_S2_k2": [
+        89,
+        90
+      ],
+      "T2_S2_k3": [
+        132,
+        133
+      ],
+      "T3_S1_k0": [
+        12,
+        13
+      ],
+      "T3_S1_k1": [
+        52,
+        53
+      ],
+      "T3_S1_k2": [
+        100,
+        101
+      ],
+      "T3_S1_k3": [
+        148,
+        149
+      ],
+      "T3_S2_k0": [
+        13,
+        14
+      ],
+      "T3_S2_k1": [
+        53,
+        54
+      ],
+      "T3_S2_k2": [
+        101,
+        102
+      ],
+      "T3_S2_k3": [
+        149,
+        150
+      ],
+      "T4_S1_k0": [
+        2,
+        3
+      ],
+      "T4_S1_k1": [
+        42,
+        43
+      ],
+      "T4_S1_k2": [
+        82,
+        83
+      ],
+      "T4_S1_k3": [
+        122,
+        123
+      ],
+      "T4_S1_k4": [
+        162,
+        163
+      ],
+      "T4_S2_k0": [
+        3,
+        4
+      ],
+      "T4_S2_k1": [
+        43,
+        44
+      ],
+      "T4_S2_k2": [
+        83,
+        84
+      ],
+      "T4_S2_k3": [
+        123,
+        124
+      ],
+      "T4_S2_k4": [
+        163,
+        164
+      ],
+      "T5_S1_k0": [
+        8,
+        9
+      ],
+      "T5_S1_k1": [
+        48,
+        49
+      ],
+      "T5_S1_k2": [
+        90,
+        91
+      ],
+      "T5_S1_k3": [
+        133,
+        134
+      ],
+      "T5_S2_k0": [
+        9,
+        10
+      ],
+      "T5_S2_k1": [
+        49,
+        50
+      ],
+      "T5_S2_k2": [
+        91,
+        92
+      ],
+      "T5_S2_k3": [
+        134,
+        135
+      ],
+      "T6_S1_k0": [
+        14,
+        15
+      ],
+      "T6_S1_k1": [
+        54,
+        55
+      ],
+      "T6_S1_k2": [
+        102,
+        103
+      ],
+      "T6_S1_k3": [
+        150,
+        151
+      ],
+      "T6_S2_k0": [
+        15,
+        16
+      ],
+      "T6_S2_k1": [
+        55,
+        56
+      ],
+      "T6_S2_k2": [
+        103,
+        104
+      ],
+      "T6_S2_k3": [
+        151,
+        152
+      ],
+      "T7_S1_k0": [
+        4,
+        5
+      ],
+      "T7_S1_k1": [
+        44,
+        45
+      ],
+      "T7_S1_k2": [
+        84,
+        85
+      ],
+      "T7_S1_k3": [
+        124,
+        125
+      ],
+      "T7_S1_k4": [
+        164,
+        165
+      ],
+      "T7_S2_k0": [
+        5,
+        6
+      ],
+      "T7_S2_k1": [
+        45,
+        46
+      ],
+      "T7_S2_k2": [
+        85,
+        86
+      ],
+      "T7_S2_k3": [
+        125,
+        126
+      ],
+      "T7_S2_k4": [
+        165,
+        166
+      ],
+      "T8_S1_k0": [
+        10,
+        11
+      ],
+      "T8_S1_k1": [
+        50,
+        51
+      ],
+      "T8_S1_k2": [
+        92,
+        93
+      ],
+      "T8_S1_k3": [
+        135,
+        136
+      ],
+      "T8_S2_k0": [
+        11,
+        12
+      ],
+      "T8_S2_k1": [
+        51,
+        52
+      ],
+      "T8_S2_k2": [
+        93,
+        94
+      ],
+      "T8_S2_k3": [
+        136,
+        137
+      ]
+    }
+  },
+  "details": {
+    "root_lmax": -21,
+    "root_lower_bound": -21,
+    "root_latest_segment": "T7_S2_k4",
+    "root_g1": [],
+    "root_g2": []
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "matrix_id": "sporadic_stress_boundary_v1",
+  "timeout_ms": 2000,
+  "horizon_policy": "deadline_within_horizon",
+  "burst_size": 2,
+  "include_exclusions": true,
+  "include_precedences": true,
+  "task_counts": [3, 5],
+  "horizons": [50, 100],
+  "patterns": ["min_interval", "jittered", "bursty"],
+  "jitter_ratios": {
+    "J0": 0.0,
+    "J_half": 0.5
+  },
+  "utilization_profiles": {
+    "fronteira_critica": [
+      {"C": 4, "D": 8, "T": 10, "offset": 0},
+      {"C": 3, "D": 7, "T": 10, "offset": 0},
+      {"C": 3, "D": 9, "T": 11, "offset": 2}
+    ]
+  },
+  "seeds": [201, 202, 203]
+}

@@ -1,0 +1,541 @@
+{
+  "instance_id": "N3_H100_baixa_bursty_J_full__seed101",
+  "instance_hash": "9026c699fe36b2b8fe7f57d1d43de1d9148ecf4f3acc8741987f718b95964783",
+  "planner": "smt-z3",
+  "objective": "feasibility",
+  "status": "feasible",
+  "schedule": {
+    "units": [
+      {
+        "segment_id": "T1_S1_k0",
+        "unit_index": 1,
+        "start_tick": 0
+      },
+      {
+        "segment_id": "T2_S1_k0",
+        "unit_index": 1,
+        "start_tick": 2
+      },
+      {
+        "segment_id": "T1_S2_k0",
+        "unit_index": 1,
+        "start_tick": 3
+      },
+      {
+        "segment_id": "T3_S1_k0",
+        "unit_index": 1,
+        "start_tick": 4
+      },
+      {
+        "segment_id": "T2_S2_k0",
+        "unit_index": 1,
+        "start_tick": 5
+      },
+      {
+        "segment_id": "T3_S2_k0",
+        "unit_index": 1,
+        "start_tick": 6
+      },
+      {
+        "segment_id": "T1_S1_k1",
+        "unit_index": 1,
+        "start_tick": 15
+      },
+      {
+        "segment_id": "T2_S1_k1",
+        "unit_index": 1,
+        "start_tick": 18
+      },
+      {
+        "segment_id": "T1_S2_k1",
+        "unit_index": 1,
+        "start_tick": 19
+      },
+      {
+        "segment_id": "T3_S1_k1",
+        "unit_index": 1,
+        "start_tick": 22
+      },
+      {
+        "segment_id": "T2_S2_k1",
+        "unit_index": 1,
+        "start_tick": 23
+      },
+      {
+        "segment_id": "T3_S2_k1",
+        "unit_index": 1,
+        "start_tick": 24
+      },
+      {
+        "segment_id": "T1_S1_k2",
+        "unit_index": 1,
+        "start_tick": 45
+      },
+      {
+        "segment_id": "T2_S1_k2",
+        "unit_index": 1,
+        "start_tick": 50
+      },
+      {
+        "segment_id": "T1_S2_k2",
+        "unit_index": 1,
+        "start_tick": 51
+      },
+      {
+        "segment_id": "T3_S1_k2",
+        "unit_index": 1,
+        "start_tick": 58
+      },
+      {
+        "segment_id": "T2_S2_k2",
+        "unit_index": 1,
+        "start_tick": 59
+      },
+      {
+        "segment_id": "T3_S2_k2",
+        "unit_index": 1,
+        "start_tick": 60
+      },
+      {
+        "segment_id": "T1_S1_k3",
+        "unit_index": 1,
+        "start_tick": 61
+      },
+      {
+        "segment_id": "T2_S1_k3",
+        "unit_index": 1,
+        "start_tick": 66
+      },
+      {
+        "segment_id": "T1_S2_k3",
+        "unit_index": 1,
+        "start_tick": 67
+      },
+      {
+        "segment_id": "T3_S1_k3",
+        "unit_index": 1,
+        "start_tick": 76
+      },
+      {
+        "segment_id": "T2_S2_k3",
+        "unit_index": 1,
+        "start_tick": 77
+      },
+      {
+        "segment_id": "T3_S2_k3",
+        "unit_index": 1,
+        "start_tick": 78
+      },
+      {
+        "segment_id": "T1_S1_k4",
+        "unit_index": 1,
+        "start_tick": 90
+      },
+      {
+        "segment_id": "T1_S2_k4",
+        "unit_index": 1,
+        "start_tick": 91
+      }
+    ],
+    "merged_view": [
+      {
+        "segment_id": "T1_S1_k0",
+        "start_tick": 0,
+        "end_tick": 1,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k0",
+        "start_tick": 2,
+        "end_tick": 3,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k0",
+        "start_tick": 3,
+        "end_tick": 4,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k0",
+        "start_tick": 4,
+        "end_tick": 5,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k0",
+        "start_tick": 5,
+        "end_tick": 6,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k0",
+        "start_tick": 6,
+        "end_tick": 7,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k1",
+        "start_tick": 15,
+        "end_tick": 16,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k1",
+        "start_tick": 18,
+        "end_tick": 19,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k1",
+        "start_tick": 19,
+        "end_tick": 20,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k1",
+        "start_tick": 22,
+        "end_tick": 23,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k1",
+        "start_tick": 23,
+        "end_tick": 24,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k1",
+        "start_tick": 24,
+        "end_tick": 25,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k2",
+        "start_tick": 45,
+        "end_tick": 46,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k2",
+        "start_tick": 50,
+        "end_tick": 51,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k2",
+        "start_tick": 51,
+        "end_tick": 52,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k2",
+        "start_tick": 58,
+        "end_tick": 59,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k2",
+        "start_tick": 59,
+        "end_tick": 60,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k2",
+        "start_tick": 60,
+        "end_tick": 61,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k3",
+        "start_tick": 61,
+        "end_tick": 62,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k3",
+        "start_tick": 66,
+        "end_tick": 67,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k3",
+        "start_tick": 67,
+        "end_tick": 68,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k3",
+        "start_tick": 76,
+        "end_tick": 77,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k3",
+        "start_tick": 77,
+        "end_tick": 78,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k3",
+        "start_tick": 78,
+        "end_tick": 79,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k4",
+        "start_tick": 90,
+        "end_tick": 91,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k4",
+        "start_tick": 91,
+        "end_tick": 92,
+        "unit_indices": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  "logical_lmax": 0,
+  "reason": "z3_sat_verified",
+  "preprocessing_ns": 1682090,
+  "model_build_ns": 5143589,
+  "search_ns": 8651625,
+  "total_planning_ns": 17029368,
+  "nodes_generated": null,
+  "nodes_expanded": null,
+  "lower_bound": null,
+  "versions": {
+    "str_project": "0.1.0",
+    "python": "3.10.19",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+    "z3": "5.4.1"
+  },
+  "validation": {
+    "ok": true,
+    "valid": true,
+    "feasible": true,
+    "require_deadlines": true,
+    "logical_lmax": 0,
+    "errors": [],
+    "segment_bounds": {
+      "T1_S1_k0": [
+        0,
+        1
+      ],
+      "T1_S1_k1": [
+        15,
+        16
+      ],
+      "T1_S1_k2": [
+        45,
+        46
+      ],
+      "T1_S1_k3": [
+        61,
+        62
+      ],
+      "T1_S1_k4": [
+        90,
+        91
+      ],
+      "T1_S2_k0": [
+        3,
+        4
+      ],
+      "T1_S2_k1": [
+        19,
+        20
+      ],
+      "T1_S2_k2": [
+        51,
+        52
+      ],
+      "T1_S2_k3": [
+        67,
+        68
+      ],
+      "T1_S2_k4": [
+        91,
+        92
+      ],
+      "T2_S1_k0": [
+        2,
+        3
+      ],
+      "T2_S1_k1": [
+        18,
+        19
+      ],
+      "T2_S1_k2": [
+        50,
+        51
+      ],
+      "T2_S1_k3": [
+        66,
+        67
+      ],
+      "T2_S2_k0": [
+        5,
+        6
+      ],
+      "T2_S2_k1": [
+        23,
+        24
+      ],
+      "T2_S2_k2": [
+        59,
+        60
+      ],
+      "T2_S2_k3": [
+        77,
+        78
+      ],
+      "T3_S1_k0": [
+        4,
+        5
+      ],
+      "T3_S1_k1": [
+        22,
+        23
+      ],
+      "T3_S1_k2": [
+        58,
+        59
+      ],
+      "T3_S1_k3": [
+        76,
+        77
+      ],
+      "T3_S2_k0": [
+        6,
+        7
+      ],
+      "T3_S2_k1": [
+        24,
+        25
+      ],
+      "T3_S2_k2": [
+        60,
+        61
+      ],
+      "T3_S2_k3": [
+        78,
+        79
+      ]
+    }
+  },
+  "details": {
+    "z3_statistics": {
+      "decisions": 176,
+      "propagations": 188,
+      "binary propagations": 184,
+      "final checks": 1,
+      "added eqs": 325,
+      "mk clause": 325,
+      "mk clause binary": 1002,
+      "del clause": 143,
+      "num checks": 1,
+      "mk bool var": 1399,
+      "random seed": 100,
+      "arith eq adapter": 325,
+      "arith-lower": 479,
+      "arith-assert-redundant": 202,
+      "arith-upper": 58,
+      "arith-bound-propagations-lp": 270,
+      "arith-diseq": 650,
+      "arith-make-feasible": 182,
+      "arith-pivots": 26,
+      "arith-pivot-row-updates": 624,
+      "arith-pivot-cells": 2112,
+      "arith-bp-rows-analyzed": 948,
+      "arith-bp-bound-candidates": 569,
+      "arith-bp-bounds-interesting": 136,
+      "arith-max-columns": 355,
+      "arith-max-rows": 325,
+      "rlimit count": 39635,
+      "max memory": 22.68,
+      "memory": 18.34,
+      "num allocs": 5650806656.0,
+      "time": 0.008
+    }
+  }
+}

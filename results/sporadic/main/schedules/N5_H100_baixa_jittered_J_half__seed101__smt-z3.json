@@ -1,0 +1,579 @@
+{
+  "instance_id": "N5_H100_baixa_jittered_J_half__seed101",
+  "instance_hash": "ac5e18874c7bc62ea9c85f5d8d00e56682b32202fbb7b92002ad9514678ed8fb",
+  "planner": "smt-z3",
+  "objective": "feasibility",
+  "status": "feasible",
+  "schedule": {
+    "units": [
+      {
+        "segment_id": "T1_S1_k0",
+        "unit_index": 1,
+        "start_tick": 0
+      },
+      {
+        "segment_id": "T4_S1_k0",
+        "unit_index": 1,
+        "start_tick": 1
+      },
+      {
+        "segment_id": "T4_S2_k0",
+        "unit_index": 1,
+        "start_tick": 2
+      },
+      {
+        "segment_id": "T2_S1_k0",
+        "unit_index": 1,
+        "start_tick": 3
+      },
+      {
+        "segment_id": "T1_S2_k0",
+        "unit_index": 1,
+        "start_tick": 4
+      },
+      {
+        "segment_id": "T5_S1_k0",
+        "unit_index": 1,
+        "start_tick": 5
+      },
+      {
+        "segment_id": "T5_S2_k0",
+        "unit_index": 1,
+        "start_tick": 6
+      },
+      {
+        "segment_id": "T3_S1_k0",
+        "unit_index": 1,
+        "start_tick": 7
+      },
+      {
+        "segment_id": "T2_S2_k0",
+        "unit_index": 1,
+        "start_tick": 8
+      },
+      {
+        "segment_id": "T3_S2_k0",
+        "unit_index": 1,
+        "start_tick": 9
+      },
+      {
+        "segment_id": "T4_S1_k1",
+        "unit_index": 1,
+        "start_tick": 32
+      },
+      {
+        "segment_id": "T4_S2_k1",
+        "unit_index": 1,
+        "start_tick": 33
+      },
+      {
+        "segment_id": "T5_S1_k1",
+        "unit_index": 1,
+        "start_tick": 34
+      },
+      {
+        "segment_id": "T5_S2_k1",
+        "unit_index": 1,
+        "start_tick": 35
+      },
+      {
+        "segment_id": "T1_S1_k1",
+        "unit_index": 1,
+        "start_tick": 36
+      },
+      {
+        "segment_id": "T2_S1_k1",
+        "unit_index": 1,
+        "start_tick": 37
+      },
+      {
+        "segment_id": "T1_S2_k1",
+        "unit_index": 1,
+        "start_tick": 38
+      },
+      {
+        "segment_id": "T3_S1_k1",
+        "unit_index": 1,
+        "start_tick": 40
+      },
+      {
+        "segment_id": "T2_S2_k1",
+        "unit_index": 1,
+        "start_tick": 41
+      },
+      {
+        "segment_id": "T3_S2_k1",
+        "unit_index": 1,
+        "start_tick": 42
+      },
+      {
+        "segment_id": "T1_S1_k2",
+        "unit_index": 1,
+        "start_tick": 62
+      },
+      {
+        "segment_id": "T2_S1_k2",
+        "unit_index": 1,
+        "start_tick": 63
+      },
+      {
+        "segment_id": "T1_S2_k2",
+        "unit_index": 1,
+        "start_tick": 64
+      },
+      {
+        "segment_id": "T2_S2_k2",
+        "unit_index": 1,
+        "start_tick": 65
+      },
+      {
+        "segment_id": "T5_S1_k2",
+        "unit_index": 1,
+        "start_tick": 66
+      },
+      {
+        "segment_id": "T5_S2_k2",
+        "unit_index": 1,
+        "start_tick": 67
+      },
+      {
+        "segment_id": "T4_S1_k2",
+        "unit_index": 1,
+        "start_tick": 68
+      },
+      {
+        "segment_id": "T4_S2_k2",
+        "unit_index": 1,
+        "start_tick": 69
+      }
+    ],
+    "merged_view": [
+      {
+        "segment_id": "T1_S1_k0",
+        "start_tick": 0,
+        "end_tick": 1,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T4_S1_k0",
+        "start_tick": 1,
+        "end_tick": 2,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T4_S2_k0",
+        "start_tick": 2,
+        "end_tick": 3,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k0",
+        "start_tick": 3,
+        "end_tick": 4,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k0",
+        "start_tick": 4,
+        "end_tick": 5,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T5_S1_k0",
+        "start_tick": 5,
+        "end_tick": 6,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T5_S2_k0",
+        "start_tick": 6,
+        "end_tick": 7,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k0",
+        "start_tick": 7,
+        "end_tick": 8,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k0",
+        "start_tick": 8,
+        "end_tick": 9,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k0",
+        "start_tick": 9,
+        "end_tick": 10,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T4_S1_k1",
+        "start_tick": 32,
+        "end_tick": 33,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T4_S2_k1",
+        "start_tick": 33,
+        "end_tick": 34,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T5_S1_k1",
+        "start_tick": 34,
+        "end_tick": 35,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T5_S2_k1",
+        "start_tick": 35,
+        "end_tick": 36,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k1",
+        "start_tick": 36,
+        "end_tick": 37,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k1",
+        "start_tick": 37,
+        "end_tick": 38,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k1",
+        "start_tick": 38,
+        "end_tick": 39,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k1",
+        "start_tick": 40,
+        "end_tick": 41,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k1",
+        "start_tick": 41,
+        "end_tick": 42,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k1",
+        "start_tick": 42,
+        "end_tick": 43,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k2",
+        "start_tick": 62,
+        "end_tick": 63,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k2",
+        "start_tick": 63,
+        "end_tick": 64,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k2",
+        "start_tick": 64,
+        "end_tick": 65,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k2",
+        "start_tick": 65,
+        "end_tick": 66,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T5_S1_k2",
+        "start_tick": 66,
+        "end_tick": 67,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T5_S2_k2",
+        "start_tick": 67,
+        "end_tick": 68,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T4_S1_k2",
+        "start_tick": 68,
+        "end_tick": 69,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T4_S2_k2",
+        "start_tick": 69,
+        "end_tick": 70,
+        "unit_indices": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  "logical_lmax": -12,
+  "reason": "z3_sat_verified",
+  "preprocessing_ns": 1587507,
+  "model_build_ns": 5443487,
+  "search_ns": 9664974,
+  "total_planning_ns": 18385519,
+  "nodes_generated": null,
+  "nodes_expanded": null,
+  "lower_bound": null,
+  "versions": {
+    "str_project": "0.1.0",
+    "python": "3.10.19",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+    "z3": "5.4.1"
+  },
+  "validation": {
+    "ok": true,
+    "valid": true,
+    "feasible": true,
+    "require_deadlines": true,
+    "logical_lmax": -12,
+    "errors": [],
+    "segment_bounds": {
+      "T1_S1_k0": [
+        0,
+        1
+      ],
+      "T1_S1_k1": [
+        36,
+        37
+      ],
+      "T1_S1_k2": [
+        62,
+        63
+      ],
+      "T1_S2_k0": [
+        4,
+        5
+      ],
+      "T1_S2_k1": [
+        38,
+        39
+      ],
+      "T1_S2_k2": [
+        64,
+        65
+      ],
+      "T2_S1_k0": [
+        3,
+        4
+      ],
+      "T2_S1_k1": [
+        37,
+        38
+      ],
+      "T2_S1_k2": [
+        63,
+        64
+      ],
+      "T2_S2_k0": [
+        8,
+        9
+      ],
+      "T2_S2_k1": [
+        41,
+        42
+      ],
+      "T2_S2_k2": [
+        65,
+        66
+      ],
+      "T3_S1_k0": [
+        7,
+        8
+      ],
+      "T3_S1_k1": [
+        40,
+        41
+      ],
+      "T3_S2_k0": [
+        9,
+        10
+      ],
+      "T3_S2_k1": [
+        42,
+        43
+      ],
+      "T4_S1_k0": [
+        1,
+        2
+      ],
+      "T4_S1_k1": [
+        32,
+        33
+      ],
+      "T4_S1_k2": [
+        68,
+        69
+      ],
+      "T4_S2_k0": [
+        2,
+        3
+      ],
+      "T4_S2_k1": [
+        33,
+        34
+      ],
+      "T4_S2_k2": [
+        69,
+        70
+      ],
+      "T5_S1_k0": [
+        5,
+        6
+      ],
+      "T5_S1_k1": [
+        34,
+        35
+      ],
+      "T5_S1_k2": [
+        66,
+        67
+      ],
+      "T5_S2_k0": [
+        6,
+        7
+      ],
+      "T5_S2_k1": [
+        35,
+        36
+      ],
+      "T5_S2_k2": [
+        67,
+        68
+      ]
+    }
+  },
+  "details": {
+    "z3_statistics": {
+      "conflicts": 4,
+      "decisions": 229,
+      "propagations": 240,
+      "binary propagations": 234,
+      "final checks": 1,
+      "added eqs": 378,
+      "mk clause": 382,
+      "mk clause binary": 1144,
+      "del clause": 143,
+      "num checks": 1,
+      "mk bool var": 1612,
+      "random seed": 100,
+      "arith eq adapter": 378,
+      "arith-lower": 538,
+      "arith-assert-redundant": 257,
+      "arith-upper": 65,
+      "arith-conflicts": 4,
+      "arith-bound-propagations-lp": 271,
+      "arith-diseq": 756,
+      "arith-make-feasible": 238,
+      "arith-pivots": 39,
+      "arith-pivot-row-updates": 1478,
+      "arith-pivot-cells": 5754,
+      "arith-bp-rows-analyzed": 1741,
+      "arith-bp-bound-candidates": 713,
+      "arith-bp-bounds-interesting": 136,
+      "arith-max-columns": 410,
+      "arith-max-rows": 378,
+      "rlimit count": 49717,
+      "max memory": 34.93,
+      "memory": 18.34,
+      "num allocs": 156907029605.0,
+      "time": 0.009
+    }
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "instance_id": "N3_H50_fronteira_critica_jittered_J_half__seed201",
+  "instance_hash": "82728a963600c9acd2f861c481f0e3fd94732f7fff7b3d26008c2452c110ed2d",
+  "planner": "xu-parnas",
+  "objective": "feasibility",
+  "status": "infeasible",
+  "schedule": null,
+  "logical_lmax": 3,
+  "reason": "xu_parnas_search_exhausted_no_feasible_schedule",
+  "preprocessing_ns": 2209,
+  "model_build_ns": null,
+  "search_ns": 971358,
+  "total_planning_ns": 1071952,
+  "nodes_generated": 1,
+  "nodes_expanded": 0,
+  "lower_bound": 3,
+  "versions": {
+    "str_project": "0.1.0",
+    "python": "3.10.19",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+    "z3": "5.4.1"
+  },
+  "validation": {
+    "ok": true,
+    "valid": true,
+    "feasible": false,
+    "require_deadlines": false,
+    "logical_lmax": 3,
+    "errors": [],
+    "segment_bounds": {
+      "T1_S1_k0": [
+        0,
+        2
+      ],
+      "T1_S1_k1": [
+        10,
+        12
+      ],
+      "T1_S1_k2": [
+        25,
+        27
+      ],
+      "T1_S1_k3": [
+        37,
+        39
+      ],
+      "T1_S2_k0": [
+        2,
+        4
+      ],
+      "T1_S2_k1": [
+        12,
+        14
+      ],
+      "T1_S2_k2": [
+        27,
+        29
+      ],
+      "T1_S2_k3": [
+        39,
+        41
+      ],
+      "T2_S1_k0": [
+        4,
+        5
+      ],
+      "T2_S1_k1": [
+        14,
+        15
+      ],
+      "T2_S1_k2": [
+        29,
+        30
+      ],
+      "T2_S1_k3": [
+        41,
+        42
+      ],
+      "T2_S2_k0": [
+        5,
+        7
+      ],
+      "T2_S2_k1": [
+        15,
+        17
+      ],
+      "T2_S2_k2": [
+        30,
+        32
+      ],
+      "T2_S2_k3": [
+        42,
+        44
+      ],
+      "T3_S1_k0": [
+        7,
+        8
+      ],
+      "T3_S1_k1": [
+        18,
+        19
+      ],
+      "T3_S1_k2": [
+        32,
+        33
+      ],
+      "T3_S2_k0": [
+        8,
+        10
+      ],
+      "T3_S2_k1": [
+        19,
+        21
+      ],
+      "T3_S2_k2": [
+        33,
+        35
+      ]
+    }
+  },
+  "details": {
+    "root_lmax": 3,
+    "root_lower_bound": 3,
+    "root_latest_segment": "T2_S2_k3",
+    "root_g1": [],
+    "root_g2": [],
+    "best_valid_lmax": 3
+  }
+}

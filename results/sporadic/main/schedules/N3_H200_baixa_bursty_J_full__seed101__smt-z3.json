@@ -1,0 +1,975 @@
+{
+  "instance_id": "N3_H200_baixa_bursty_J_full__seed101",
+  "instance_hash": "fead266f8f073f64e3aa1c57d91369a1fda89548dd2c1fc72d3c8ac6e78f9b91",
+  "planner": "smt-z3",
+  "objective": "feasibility",
+  "status": "feasible",
+  "schedule": {
+    "units": [
+      {
+        "segment_id": "T1_S1_k0",
+        "unit_index": 1,
+        "start_tick": 0
+      },
+      {
+        "segment_id": "T2_S1_k0",
+        "unit_index": 1,
+        "start_tick": 2
+      },
+      {
+        "segment_id": "T1_S2_k0",
+        "unit_index": 1,
+        "start_tick": 3
+      },
+      {
+        "segment_id": "T3_S1_k0",
+        "unit_index": 1,
+        "start_tick": 4
+      },
+      {
+        "segment_id": "T2_S2_k0",
+        "unit_index": 1,
+        "start_tick": 5
+      },
+      {
+        "segment_id": "T3_S2_k0",
+        "unit_index": 1,
+        "start_tick": 6
+      },
+      {
+        "segment_id": "T1_S1_k1",
+        "unit_index": 1,
+        "start_tick": 15
+      },
+      {
+        "segment_id": "T2_S1_k1",
+        "unit_index": 1,
+        "start_tick": 18
+      },
+      {
+        "segment_id": "T1_S2_k1",
+        "unit_index": 1,
+        "start_tick": 19
+      },
+      {
+        "segment_id": "T3_S1_k1",
+        "unit_index": 1,
+        "start_tick": 22
+      },
+      {
+        "segment_id": "T2_S2_k1",
+        "unit_index": 1,
+        "start_tick": 23
+      },
+      {
+        "segment_id": "T3_S2_k1",
+        "unit_index": 1,
+        "start_tick": 24
+      },
+      {
+        "segment_id": "T1_S1_k2",
+        "unit_index": 1,
+        "start_tick": 45
+      },
+      {
+        "segment_id": "T2_S1_k2",
+        "unit_index": 1,
+        "start_tick": 50
+      },
+      {
+        "segment_id": "T1_S2_k2",
+        "unit_index": 1,
+        "start_tick": 51
+      },
+      {
+        "segment_id": "T3_S1_k2",
+        "unit_index": 1,
+        "start_tick": 58
+      },
+      {
+        "segment_id": "T2_S2_k2",
+        "unit_index": 1,
+        "start_tick": 59
+      },
+      {
+        "segment_id": "T3_S2_k2",
+        "unit_index": 1,
+        "start_tick": 60
+      },
+      {
+        "segment_id": "T1_S1_k3",
+        "unit_index": 1,
+        "start_tick": 61
+      },
+      {
+        "segment_id": "T2_S1_k3",
+        "unit_index": 1,
+        "start_tick": 66
+      },
+      {
+        "segment_id": "T1_S2_k3",
+        "unit_index": 1,
+        "start_tick": 67
+      },
+      {
+        "segment_id": "T3_S1_k3",
+        "unit_index": 1,
+        "start_tick": 76
+      },
+      {
+        "segment_id": "T2_S2_k3",
+        "unit_index": 1,
+        "start_tick": 77
+      },
+      {
+        "segment_id": "T3_S2_k3",
+        "unit_index": 1,
+        "start_tick": 78
+      },
+      {
+        "segment_id": "T1_S1_k4",
+        "unit_index": 1,
+        "start_tick": 90
+      },
+      {
+        "segment_id": "T2_S1_k4",
+        "unit_index": 1,
+        "start_tick": 98
+      },
+      {
+        "segment_id": "T1_S2_k4",
+        "unit_index": 1,
+        "start_tick": 99
+      },
+      {
+        "segment_id": "T2_S2_k4",
+        "unit_index": 1,
+        "start_tick": 100
+      },
+      {
+        "segment_id": "T1_S1_k5",
+        "unit_index": 1,
+        "start_tick": 105
+      },
+      {
+        "segment_id": "T1_S2_k5",
+        "unit_index": 1,
+        "start_tick": 111
+      },
+      {
+        "segment_id": "T3_S1_k4",
+        "unit_index": 1,
+        "start_tick": 112
+      },
+      {
+        "segment_id": "T3_S2_k4",
+        "unit_index": 1,
+        "start_tick": 113
+      },
+      {
+        "segment_id": "T2_S1_k5",
+        "unit_index": 1,
+        "start_tick": 114
+      },
+      {
+        "segment_id": "T2_S2_k5",
+        "unit_index": 1,
+        "start_tick": 115
+      },
+      {
+        "segment_id": "T3_S1_k5",
+        "unit_index": 1,
+        "start_tick": 130
+      },
+      {
+        "segment_id": "T3_S2_k5",
+        "unit_index": 1,
+        "start_tick": 131
+      },
+      {
+        "segment_id": "T1_S1_k6",
+        "unit_index": 1,
+        "start_tick": 135
+      },
+      {
+        "segment_id": "T1_S2_k6",
+        "unit_index": 1,
+        "start_tick": 136
+      },
+      {
+        "segment_id": "T2_S1_k6",
+        "unit_index": 1,
+        "start_tick": 146
+      },
+      {
+        "segment_id": "T2_S2_k6",
+        "unit_index": 1,
+        "start_tick": 147
+      },
+      {
+        "segment_id": "T1_S1_k7",
+        "unit_index": 1,
+        "start_tick": 150
+      },
+      {
+        "segment_id": "T1_S2_k7",
+        "unit_index": 1,
+        "start_tick": 151
+      },
+      {
+        "segment_id": "T2_S1_k7",
+        "unit_index": 1,
+        "start_tick": 162
+      },
+      {
+        "segment_id": "T3_S1_k6",
+        "unit_index": 1,
+        "start_tick": 166
+      },
+      {
+        "segment_id": "T2_S2_k7",
+        "unit_index": 1,
+        "start_tick": 167
+      },
+      {
+        "segment_id": "T3_S2_k6",
+        "unit_index": 1,
+        "start_tick": 168
+      },
+      {
+        "segment_id": "T1_S1_k8",
+        "unit_index": 1,
+        "start_tick": 180
+      },
+      {
+        "segment_id": "T1_S2_k8",
+        "unit_index": 1,
+        "start_tick": 181
+      },
+      {
+        "segment_id": "T3_S1_k7",
+        "unit_index": 1,
+        "start_tick": 184
+      },
+      {
+        "segment_id": "T3_S2_k7",
+        "unit_index": 1,
+        "start_tick": 185
+      }
+    ],
+    "merged_view": [
+      {
+        "segment_id": "T1_S1_k0",
+        "start_tick": 0,
+        "end_tick": 1,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k0",
+        "start_tick": 2,
+        "end_tick": 3,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k0",
+        "start_tick": 3,
+        "end_tick": 4,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k0",
+        "start_tick": 4,
+        "end_tick": 5,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k0",
+        "start_tick": 5,
+        "end_tick": 6,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k0",
+        "start_tick": 6,
+        "end_tick": 7,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k1",
+        "start_tick": 15,
+        "end_tick": 16,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k1",
+        "start_tick": 18,
+        "end_tick": 19,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k1",
+        "start_tick": 19,
+        "end_tick": 20,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k1",
+        "start_tick": 22,
+        "end_tick": 23,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k1",
+        "start_tick": 23,
+        "end_tick": 24,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k1",
+        "start_tick": 24,
+        "end_tick": 25,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k2",
+        "start_tick": 45,
+        "end_tick": 46,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k2",
+        "start_tick": 50,
+        "end_tick": 51,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k2",
+        "start_tick": 51,
+        "end_tick": 52,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k2",
+        "start_tick": 58,
+        "end_tick": 59,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k2",
+        "start_tick": 59,
+        "end_tick": 60,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k2",
+        "start_tick": 60,
+        "end_tick": 61,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k3",
+        "start_tick": 61,
+        "end_tick": 62,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k3",
+        "start_tick": 66,
+        "end_tick": 67,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k3",
+        "start_tick": 67,
+        "end_tick": 68,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k3",
+        "start_tick": 76,
+        "end_tick": 77,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k3",
+        "start_tick": 77,
+        "end_tick": 78,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k3",
+        "start_tick": 78,
+        "end_tick": 79,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k4",
+        "start_tick": 90,
+        "end_tick": 91,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k4",
+        "start_tick": 98,
+        "end_tick": 99,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k4",
+        "start_tick": 99,
+        "end_tick": 100,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k4",
+        "start_tick": 100,
+        "end_tick": 101,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k5",
+        "start_tick": 105,
+        "end_tick": 106,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k5",
+        "start_tick": 111,
+        "end_tick": 112,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k4",
+        "start_tick": 112,
+        "end_tick": 113,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k4",
+        "start_tick": 113,
+        "end_tick": 114,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k5",
+        "start_tick": 114,
+        "end_tick": 115,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k5",
+        "start_tick": 115,
+        "end_tick": 116,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k5",
+        "start_tick": 130,
+        "end_tick": 131,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k5",
+        "start_tick": 131,
+        "end_tick": 132,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k6",
+        "start_tick": 135,
+        "end_tick": 136,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k6",
+        "start_tick": 136,
+        "end_tick": 137,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k6",
+        "start_tick": 146,
+        "end_tick": 147,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k6",
+        "start_tick": 147,
+        "end_tick": 148,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k7",
+        "start_tick": 150,
+        "end_tick": 151,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k7",
+        "start_tick": 151,
+        "end_tick": 152,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S1_k7",
+        "start_tick": 162,
+        "end_tick": 163,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k6",
+        "start_tick": 166,
+        "end_tick": 167,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T2_S2_k7",
+        "start_tick": 167,
+        "end_tick": 168,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k6",
+        "start_tick": 168,
+        "end_tick": 169,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S1_k8",
+        "start_tick": 180,
+        "end_tick": 181,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T1_S2_k8",
+        "start_tick": 181,
+        "end_tick": 182,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S1_k7",
+        "start_tick": 184,
+        "end_tick": 185,
+        "unit_indices": [
+          1,
+          1
+        ]
+      },
+      {
+        "segment_id": "T3_S2_k7",
+        "start_tick": 185,
+        "end_tick": 186,
+        "unit_indices": [
+          1,
+          1
+        ]
+      }
+    ]
+  },
+  "logical_lmax": 0,
+  "reason": "z3_sat_verified",
+  "preprocessing_ns": 1600889,
+  "model_build_ns": 9145322,
+  "search_ns": 25608804,
+  "total_planning_ns": 38614923,
+  "nodes_generated": null,
+  "nodes_expanded": null,
+  "lower_bound": null,
+  "versions": {
+    "str_project": "0.1.0",
+    "python": "3.10.19",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+    "z3": "5.4.1"
+  },
+  "validation": {
+    "ok": true,
+    "valid": true,
+    "feasible": true,
+    "require_deadlines": true,
+    "logical_lmax": 0,
+    "errors": [],
+    "segment_bounds": {
+      "T1_S1_k0": [
+        0,
+        1
+      ],
+      "T1_S1_k1": [
+        15,
+        16
+      ],
+      "T1_S1_k2": [
+        45,
+        46
+      ],
+      "T1_S1_k3": [
+        61,
+        62
+      ],
+      "T1_S1_k4": [
+        90,
+        91
+      ],
+      "T1_S1_k5": [
+        105,
+        106
+      ],
+      "T1_S1_k6": [
+        135,
+        136
+      ],
+      "T1_S1_k7": [
+        150,
+        151
+      ],
+      "T1_S1_k8": [
+        180,
+        181
+      ],
+      "T1_S2_k0": [
+        3,
+        4
+      ],
+      "T1_S2_k1": [
+        19,
+        20
+      ],
+      "T1_S2_k2": [
+        51,
+        52
+      ],
+      "T1_S2_k3": [
+        67,
+        68
+      ],
+      "T1_S2_k4": [
+        99,
+        100
+      ],
+      "T1_S2_k5": [
+        111,
+        112
+      ],
+      "T1_S2_k6": [
+        136,
+        137
+      ],
+      "T1_S2_k7": [
+        151,
+        152
+      ],
+      "T1_S2_k8": [
+        181,
+        182
+      ],
+      "T2_S1_k0": [
+        2,
+        3
+      ],
+      "T2_S1_k1": [
+        18,
+        19
+      ],
+      "T2_S1_k2": [
+        50,
+        51
+      ],
+      "T2_S1_k3": [
+        66,
+        67
+      ],
+      "T2_S1_k4": [
+        98,
+        99
+      ],
+      "T2_S1_k5": [
+        114,
+        115
+      ],
+      "T2_S1_k6": [
+        146,
+        147
+      ],
+      "T2_S1_k7": [
+        162,
+        163
+      ],
+      "T2_S2_k0": [
+        5,
+        6
+      ],
+      "T2_S2_k1": [
+        23,
+        24
+      ],
+      "T2_S2_k2": [
+        59,
+        60
+      ],
+      "T2_S2_k3": [
+        77,
+        78
+      ],
+      "T2_S2_k4": [
+        100,
+        101
+      ],
+      "T2_S2_k5": [
+        115,
+        116
+      ],
+      "T2_S2_k6": [
+        147,
+        148
+      ],
+      "T2_S2_k7": [
+        167,
+        168
+      ],
+      "T3_S1_k0": [
+        4,
+        5
+      ],
+      "T3_S1_k1": [
+        22,
+        23
+      ],
+      "T3_S1_k2": [
+        58,
+        59
+      ],
+      "T3_S1_k3": [
+        76,
+        77
+      ],
+      "T3_S1_k4": [
+        112,
+        113
+      ],
+      "T3_S1_k5": [
+        130,
+        131
+      ],
+      "T3_S1_k6": [
+        166,
+        167
+      ],
+      "T3_S1_k7": [
+        184,
+        185
+      ],
+      "T3_S2_k0": [
+        6,
+        7
+      ],
+      "T3_S2_k1": [
+        24,
+        25
+      ],
+      "T3_S2_k2": [
+        60,
+        61
+      ],
+      "T3_S2_k3": [
+        78,
+        79
+      ],
+      "T3_S2_k4": [
+        113,
+        114
+      ],
+      "T3_S2_k5": [
+        131,
+        132
+      ],
+      "T3_S2_k6": [
+        168,
+        169
+      ],
+      "T3_S2_k7": [
+        185,
+        186
+      ]
+    }
+  },
+  "details": {
+    "z3_statistics": {
+      "conflicts": 1,
+      "decisions": 735,
+      "propagations": 760,
+      "binary propagations": 753,
+      "final checks": 1,
+      "added eqs": 1225,
+      "mk clause": 1225,
+      "mk clause binary": 3714,
+      "del clause": 584,
+      "num checks": 1,
+      "mk bool var": 5089,
+      "random seed": 100,
+      "arith eq adapter": 1225,
+      "arith-lower": 1964,
+      "arith-assert-redundant": 786,
+      "arith-upper": 110,
+      "arith-conflicts": 1,
+      "arith-bound-propagations-lp": 1160,
+      "arith-diseq": 2450,
+      "arith-make-feasible": 744,
+      "arith-pivots": 45,
+      "arith-pivot-row-updates": 2160,
+      "arith-pivot-cells": 7200,
+      "arith-bp-rows-analyzed": 3645,
+      "arith-bp-bound-candidates": 1876,
+      "arith-bp-bounds-interesting": 582,
+      "arith-max-columns": 1279,
+      "arith-max-rows": 1225,
+      "rlimit count": 137963,
+      "max memory": 34.93,
+      "memory": 18.71,
+      "num allocs": 44230998436.0,
+      "time": 0.025
+    }
+  }
+}

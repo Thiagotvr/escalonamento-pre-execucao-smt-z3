@@ -1,0 +1,75 @@
+{
+  "schema_version": "sporadic-v1",
+  "scenario_id": "demo_temperature_sporadic",
+  "horizon": 80,
+  "seed": 2026,
+  "generation_mode": "jittered",
+  "jitter_max": 6,
+  "horizon_policy": "deadline_within_horizon",
+  "time_unit": "logical_unit",
+  "objective": "feasibility",
+  "tasks": [
+    {
+      "id": "P1",
+      "C": 6,
+      "D": 8,
+      "T": 20,
+      "offset": 0,
+      "segments": [
+        {"id": "A1", "execution_units": 2},
+        {"id": "A2", "execution_units": 1},
+        {"id": "A3", "execution_units": 3}
+      ]
+    },
+    {
+      "id": "P2",
+      "C": 8,
+      "D": 20,
+      "T": 20,
+      "offset": 0,
+      "segments": [
+        {"id": "A4", "execution_units": 4},
+        {"id": "A5", "execution_units": 1},
+        {"id": "A6", "execution_units": 1},
+        {"id": "A7", "execution_units": 2}
+      ]
+    },
+    {
+      "id": "P3",
+      "C": 5,
+      "D": 12,
+      "T": 20,
+      "offset": 8,
+      "segments": [
+        {"id": "S", "execution_units": 2},
+        {"id": "A8", "execution_units": 3}
+      ]
+    }
+  ],
+  "cross_rules": [
+    {
+      "kind": "precedence",
+      "src_task": "P1",
+      "src_segment": "A3",
+      "dst_task": "P2",
+      "dst_segment": "A4",
+      "scope": "same_activation"
+    },
+    {
+      "kind": "exclusion",
+      "src_task": "P2",
+      "src_segment": "A7",
+      "dst_task": "P3",
+      "dst_segment": "S",
+      "scope": "all_overlapping"
+    },
+    {
+      "kind": "exclusion",
+      "src_task": "P3",
+      "src_segment": "S",
+      "dst_task": "P2",
+      "dst_segment": "A7",
+      "scope": "all_overlapping"
+    }
+  ]
+}

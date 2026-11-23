@@ -1,0 +1,41 @@
+{
+  "instance_id": "N3_H100_fronteira_critica_min_interval_J0__seed201",
+  "instance_hash": "06bf296c68fe141412594ac7649b95e80f2820998a8989bfbc86c7a21b1c4707",
+  "planner": "smt-z3",
+  "objective": "feasibility",
+  "status": "infeasible",
+  "schedule": null,
+  "logical_lmax": null,
+  "reason": "z3_unsat_faithful_model",
+  "preprocessing_ns": 4824219,
+  "model_build_ns": 16363119,
+  "search_ns": 94959494,
+  "total_planning_ns": 116661272,
+  "nodes_generated": null,
+  "nodes_expanded": null,
+  "lower_bound": null,
+  "versions": {
+    "str_project": "0.1.0",
+    "python": "3.10.19",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+    "z3": "5.4.1"
+  },
+  "validation": null,
+  "details": {
+    "z3_statistics": {
+      "conflicts": 1,
+      "propagations": 103,
+      "binary propagations": 103,
+      "mk clause binary": 4670,
+      "num checks": 1,
+      "mk bool var": 9613,
+      "dd assertions": 389,
+      "dd propagations": 9177,
+      "num allocs": 147805877,
+      "rlimit count": 432873,
+      "max memory": 26.85,
+      "memory": 20.55,
+      "time": 0.094
+    }
+  }
+}

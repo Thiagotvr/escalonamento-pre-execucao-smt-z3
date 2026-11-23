@@ -1,0 +1,61 @@
+{
+  "schema_version": "sporadic-v1",
+  "scenario_id": "demo_mixed_profiles",
+  "horizon": 60,
+  "seed": 12345,
+  "generation_mode": "mixed",
+  "horizon_policy": "deadline_within_horizon",
+  "time_unit": "logical_unit",
+  "objective": "feasibility",
+  "tasks": [
+    {
+      "id": "T_ctrl",
+      "C": 3,
+      "D": 8,
+      "T": 12,
+      "offset": 0,
+      "mode": "min_interval",
+      "segments": [
+        {"id": "acq", "execution_units": 1},
+        {"id": "calc", "execution_units": 2}
+      ]
+    },
+    {
+      "id": "T_mon",
+      "C": 2,
+      "D": 7,
+      "T": 10,
+      "offset": 0,
+      "mode": "jittered",
+      "jitter_max": 5,
+      "segments": [
+        {"id": "read", "execution_units": 1},
+        {"id": "check", "execution_units": 1}
+      ]
+    },
+    {
+      "id": "T_evt",
+      "C": 3,
+      "D": 10,
+      "T": 12,
+      "offset": 2,
+      "mode": "bursty",
+      "burst_size": 2,
+      "burst_gap": 10,
+      "segments": [
+        {"id": "handle", "execution_units": 2},
+        {"id": "log", "execution_units": 1}
+      ]
+    }
+  ],
+  "cross_rules": [
+    {
+      "kind": "exclusion",
+      "src_task": "T_ctrl",
+      "src_segment": "calc",
+      "dst_task": "T_evt",
+      "dst_segment": "handle",
+      "scope": "all_overlapping"
+    }
+  ]
+}

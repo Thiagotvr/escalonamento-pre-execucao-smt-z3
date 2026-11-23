@@ -1,0 +1,46 @@
+{
+  "instance_id": "N3_H50_alta_jittered_J_half__seed101",
+  "instance_hash": "87cd3ccb0ae41ae55d067a35bab10b7b2b0747456083af1883242454c7127b27",
+  "planner": "smt-z3",
+  "objective": "feasibility",
+  "status": "infeasible",
+  "schedule": null,
+  "logical_lmax": null,
+  "reason": "z3_unsat_faithful_model",
+  "preprocessing_ns": 1509879,
+  "model_build_ns": 6504576,
+  "search_ns": 13122240,
+  "total_planning_ns": 21624204,
+  "nodes_generated": null,
+  "nodes_expanded": null,
+  "lower_bound": null,
+  "versions": {
+    "str_project": "0.1.0",
+    "python": "3.10.19",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+    "z3": "5.4.1"
+  },
+  "validation": null,
+  "details": {
+    "z3_statistics": {
+      "conflicts": 154,
+      "decisions": 215,
+      "propagations": 758,
+      "binary propagations": 712,
+      "restarts": 1,
+      "mk clause": 131,
+      "mk clause binary": 806,
+      "del clause": 124,
+      "minimized lits": 128,
+      "num checks": 1,
+      "mk bool var": 1680,
+      "dd assertions": 1083,
+      "dd propagations": 2923,
+      "num allocs": 180278949,
+      "rlimit count": 77606,
+      "max memory": 20.18,
+      "memory": 18.62,
+      "time": 0.012
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "instance_id": "N3_H100_alta_min_interval_J0__seed101",
+  "instance_hash": "f7364c2d36391742a748edf84e4c07acd0b3a3602590037e5d98c9cdc07067a8",
+  "planner": "smt-z3",
+  "objective": "feasibility",
+  "status": "infeasible",
+  "schedule": null,
+  "logical_lmax": null,
+  "reason": "z3_unsat_faithful_model",
+  "preprocessing_ns": 1509895,
+  "model_build_ns": 15469389,
+  "search_ns": 61267881,
+  "total_planning_ns": 78681411,
+  "nodes_generated": null,
+  "nodes_expanded": null,
+  "lower_bound": null,
+  "versions": {
+    "str_project": "0.1.0",
+    "python": "3.10.19",
+    "platform": "Linux-7.0.0-42-generic-x86_64-with-glibc2.39",
+    "z3": "5.4.1"
+  },
+  "validation": null,
+  "details": {
+    "z3_statistics": {
+      "conflicts": 150,
+      "decisions": 298,
+      "propagations": 905,
+      "binary propagations": 851,
+      "restarts": 1,
+      "mk clause": 128,
+      "mk clause binary": 4598,
+      "del clause": 101,
+      "minimized lits": 101,
+      "num checks": 1,
+      "mk bool var": 9418,
+      "dd assertions": 1470,
+      "dd propagations": 10695,
+      "num allocs": 1544554482,
+      "rlimit count": 395819,
+      "max memory": 26.78,
+      "memory": 20.5,
+      "time": 0.061
+    }
+  }
+}
