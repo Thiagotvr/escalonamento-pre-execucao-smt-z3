@@ -12,3 +12,4 @@ runs/*
 !runs/.gitkeep
 *.log
 .DS_Store
+/resultados/GUIA_RESULTADOS_ARTIGO.MD
