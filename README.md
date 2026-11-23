@@ -115,6 +115,25 @@ python -m str_project.cli benchmark --instance instances/temperature_case.json -
 
 ---
 
+## Extensão para Tarefas Esporádicas (Branch `feature/sporadic-tasks`)
+
+A extensão para avaliação comparativa de **cenários finitos offline de tarefas esporádicas** (`r[i,k+1] - r[i,k] >= T_i`, `0 < C_i <= D_i <= T_i`) foi implementada de forma desacoplada em `src/str_project/sporadic/`, reutilizando integralmente os planejadores `Xu & Parnas` e `SMT/Z3` e o verificador independente sem alterar o código nem os resultados periódicos anteriores (`resultados_artigo/`).
+
+- **Diagnóstico de compatibilidade:** [`docs/diagnostico_esporadicas.md`](docs/diagnostico_esporadicas.md)
+- **Guia de uso, resultados e limitações científicas:** [`docs/extensao_esporadicas.md`](docs/extensao_esporadicas.md)
+- **Configurações e matrizes:** `configs/sporadic/`
+- **Resultados e relatórios esporádicos (isolados):** `results/sporadic/`
+
+Exemplo rápido de execução esporádica via CLI:
+
+```bash
+python -m str_project.sporadic.cli run-scenario \
+  --config configs/sporadic/demo_temperature_sporadic.json \
+  --out results/sporadic/demos/temperature
+```
+
+---
+
 ## Notas Técnicas e Adaptações Documentadas
 
 1. **Condição existencial em `compute_Z` (`xu_bounds.py`):** conforme Xu & Parnas (1990), Seção IV (p. 364), um segmento `k` com `e[k] == s[l]` para algum `l ∈ Z[i]` entra em `Z[i]` quando **existe** `l' ∈ Z[i]` tal que `r'[l'] < e[k]` (isto é, pelo menos um segmento em `Z[i]` já estava liberado antes do término de `k`, caracterizando atraso efetivo). Essa condição reproduz exatamente os conjuntos `Z`, `G1`, `G2` e os limites inferiores dos Exemplos 1 e 2 do artigo, além de apresentar 100% de concordância com o oráculo enumerativo e com o SMT/Z3 em testes aleatórios tanto em viabilidade quanto em `min_lmax`.
