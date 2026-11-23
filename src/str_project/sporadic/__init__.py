@@ -1,7 +1,9 @@
 """Sporadic task extension (offline finite-horizon scenarios) for STR Project."""
 
 from .adapter import adapt_sequence_to_instance, save_adapted_instance
+from .experiments import run_sporadic_matrix, run_sporadic_scenario
 from .generator import generate_sequence
+from .reporting import export_matrix_results
 from .models import (
     Activation,
     AdaptedSporadicInstance,
